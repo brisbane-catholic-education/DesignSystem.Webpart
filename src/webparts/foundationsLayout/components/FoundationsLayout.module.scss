@@ -1,0 +1,167 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.foundationsLayout {
+  table {
+    border-collapse: collapse;
+    width:100%;
+  }
+
+  table,
+  td,
+  th {
+    border: 1px solid #979797;
+    text-align: left;
+  }
+
+  th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  [class*="ms-ShimmerElementsGroup-root"] {
+    height: 8px;
+    margin-top: 8px;
+  }
+
+  .table {
+    [class*="ms-Grid-col"] {
+      border: 1px solid #979797;
+      padding-top: 15px;
+      padding-left: 10px;
+      padding-bottom: 15px;
+
+    }
+
+    [class*="ms-Grid-row"] {
+      padding: 0px !important;
+    }
+
+  }
+
+  .layoutGrid {
+    [class*="ms-Grid-col"] {
+
+      //padding-right: 24px;
+      @media screen and (max-width: $ms-screen-max-md) {
+        // padding-right: 0px;
+      }
+
+      >div {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: #e6ecef;
+        text-align: center;
+      }
+    }
+  }
+
+  .topNav {
+    background: #e6ecef;
+
+    .header {
+      background: #054166;
+      padding: 5px 8px 7px 8px;
+      color: white;
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: $ms-font-weight-semibold;
+    }
+
+    strong {
+      padding-top: 12px;
+      font-size: 16px;
+      line-height: 21px;
+      color: #054166;
+    }
+
+    .body {
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      padding: 8px;
+      box-sizing: border-box;
+
+      .left {
+        float: left;
+        width: 20%;
+
+        >div {
+          padding-right: 24px;
+          padding-top: 8px;
+          padding-left: 8px;
+        }
+      }
+
+      [class*="ms-Shimmer-shimmerWrapper"] {
+        background: none;
+      }
+
+      [class*="ms-ShimmerLine-root"] {
+        color: #054166;
+        background-color: #93adbc;
+        height: 8px;
+
+        svg {
+          display: none;
+        }
+
+        &:first-child {
+          width: 8px !important;
+        }
+
+        &:last-child {
+          width: auto !important;
+          flex-grow: 1;
+        }
+      }
+
+      [class*="ms-ShimmerGap-root"] {
+        background-color: transparent;
+        height: 8px;
+        width: 8px !important;
+      }
+
+      .right {
+        float: left;
+        width: 80%;
+
+        .content {
+          box-sizing: border-box;
+          height: 257px;
+        }
+      }
+    }
+
+    .title {
+      color: #054166;
+    }
+
+    .links {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #054166;
+
+      span {
+        padding-right: 26px;
+        font-size: 13px;
+        line-height: 21px;
+      }
+    }
+
+    .content {
+      color: #054166;
+      background: white;
+      padding: 15px;
+      height: 124px;
+    }
+  }
+}

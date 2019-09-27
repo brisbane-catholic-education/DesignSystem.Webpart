@@ -1,0 +1,27 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsOverflowSet {
+ [role="menubar"]{
+ width: 100%;
+ }
+ .basicExample{
+   [class*="ms-Link"]{
+     padding-right: 30px;
+   }
+ }
+ .searchBox{
+   float: left;
+   width:180px;
+   height: 38px;
+ }
+ .customExample{
+   width: 180px;
+ }
+}
+:global{
+  .ms-Callout{
+    li{
+      margin:5px;
+    }
+  }
+}

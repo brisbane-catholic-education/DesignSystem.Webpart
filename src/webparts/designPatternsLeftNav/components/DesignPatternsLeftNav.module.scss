@@ -1,0 +1,14 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsLeftNav {
+  [role="navigation"]{
+    width: 208px;
+    height: 350px;
+    box-sizing: 'border-box';
+    border: 1px solid #979797;
+    overflow-y: 'auto';
+  }
+  img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,114 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+$bce-design-system-color-darkBlue: #054166;
+$bce-design-system-color-lightBlue: #0078d4;
+.designPatternsButton {
+  .defaultButton{
+    [class*="ms-Button--default"], [class*="ms-Button--compoundPrimary"]{
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+      }
+    }
+    a,button{
+      width: 90px;
+    }
+  }
+  .commandBar{
+    [class="left"]{
+      float: left;
+      width: 20%;
+      [class*="is-underlined"]{
+        height: 40px;
+      }
+      > div{
+        padding-right: 10px;
+      }
+    }
+    [class="right"]{
+      float: left;
+      width: 80%;
+    }
+  }
+  .compoundButton{
+    [class*="ms-Button--compound"], [class*="ms-Button--compoundPrimary"]{
+      width: 80%;
+      @media screen and (max-width: $ms-screen-max-sm) {
+        width: 100%;
+      }
+    }
+
+  }
+  .iconsAndLabels{
+    img{
+      @media screen and (max-width: $ms-screen-max-sm) {
+        width: 100%;
+      }
+    }
+  
+    [class*="ms-Button--default"]{
+      width:152px!important;
+      height: 40px;
+      [class*="ms-Button-icon"]{
+        color: #0979be;
+      }
+      [class*="ms-Button-label"]{
+        text-align: left;
+        font-weight: 400;
+      }
+    }
+  }
+
+  
+  [class*="focus"]{
+    [class*="ms-Button--default"]{
+      border:1px solid #605d59;
+      color: black!important;
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+      }
+    }
+    [class*="ms-Button--primary"]{
+      border:1px solid #605d59;
+      color: white!important;
+      background: #1072ae!important;
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+          color: white!important;
+      }
+    }
+  }
+  [class*="hover"]{
+    [class*="ms-Button--default"]{
+      color: black!important;
+      background-color: rgb(234, 234, 234);
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+      }
+    }
+    [class*="ms-Button--primary"]{
+      background-color: #1072ae!important;
+      color: rgb(255, 255, 255);
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+          color: white!important;
+      }
+    }
+  }
+  [class*="press"]{
+    [class*="ms-Button--default"]{
+      [class*="ms-Button-label"]{
+        font-weight: 600;
+     }
+    }
+    [class*="ms-Button--primary"]{
+      color: white!important;
+      background: #054166!important;
+      [class*="ms-Button-label"]{
+          font-weight: 600;
+          color: white!important;
+      }
+      [class*="ms-Button-label"]{
+        font-weight: 600; 
+     }
+    }
+  }
+}

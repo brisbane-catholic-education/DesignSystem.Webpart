@@ -1,0 +1,99 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+$bce-design-system-color-darkBlue: #054166;
+$bce-design-system-color-lightBlue: #0979be;
+.designPatternsChoiceFields {
+  > div:nth-child(1){
+    a{
+      margin-right: 8px;
+      border: 1px solid lightgray;
+      color: $bce-design-system-color-lightBlue;
+      padding: 15px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width:auto;
+      button{
+        margin-left: 8px;
+        width:auto;
+      }
+    }
+  }
+  .checkboxSection{
+    [class*="hover"]{
+      i{
+          opacity: 1;
+          color: lightgray;
+      }
+    }
+  
+    [class*="selected"]{
+      [class*="ms-Checkbox-checkbox"]{
+        background: $bce-design-system-color-lightBlue;
+        border-color: $bce-design-system-color-lightBlue;  
+      }
+    }
+  
+    [class*="selectedHover"]{
+        [class*="ms-Checkbox-checkbox"]{
+            background: $bce-design-system-color-darkBlue!important;
+            border-color: $bce-design-system-color-darkBlue!important;  
+        }
+    }
+  
+    [class*="focus"]{
+      button{
+        border: 1px solid rgb(102, 102, 102);
+        padding: 2px;
+        padding-right: 5px;
+      }
+    }
+  
+    [class*="disabledSelected"]{
+      [class*="ms-Checkbox-checkbox"]{
+        background: lightgray!important;
+        border-color: lightgray!important;
+    }
+    }
+    [class*="disabled"]{
+      [class*="ms-Checkbox-checkbox"]{
+        border-color: lightgray!important;
+      }
+    }
+  
+    [class*="ms-Label"][class*="defaultChoiceGroup"]{
+      font-weight: 600;
+    }
+  }
+  .choiceFieldSection{
+    [class*="hover"]{
+      [class*="ms-ChoiceField-field"]{
+        &::before{
+            border:1px solid #a6a6a6;
+        }
+        &::after{
+            border:5px solid #a6a6a6;
+            top: 5px;
+            left: 5px;
+        }
+      }
+    }
+
+    [class*="hovedSele"]{
+      [class*="ms-ChoiceField-field"]{
+          &::before{
+              border:1px solid $bce-design-system-color-darkBlue!important;
+          }
+          &::after{
+              border:5px solid $bce-design-system-color-darkBlue!important;
+          }
+      }
+  }
+
+    [class*="focus"]{
+      [class*="ms-ChoiceField-wrapper"]{
+        border: 1px solid rgb(102, 102, 102);
+        padding: 2px;
+        padding-right: 3px;
+      }
+    }
+  }
+}

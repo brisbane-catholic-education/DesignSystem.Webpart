@@ -1,0 +1,83 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsBreadcrumb {
+  [class*="ms-lg1"]{
+    text-align: center;
+    [class*="ms-Breadcrumb-list"]{
+      display: inline-block;
+    }
+  }
+
+  [class*="bce-design-system-breadcrum-small"],
+  [class*="bce-design-system-breadcrum-large"],
+  [class*="bce-design-system-breadcrum-xxl"] {
+    padding: 20px;
+    border: 20px solid #d3d3d3;
+    float: left;
+  }
+
+  [class*="ms-ResizeGroup"] {
+    clear: both;
+  }
+
+  [class*="iastates"] {
+    clear: both;
+    li:nth-child(2) {
+      [class*="ms-Breadcrumb-item"] {
+        background: #f3f2f1;
+      }
+    }
+
+    li:nth-child(3) {
+      [class*="ms-Breadcrumb-item"] {
+        border: 1px solid black;
+      }
+
+    }
+
+    li:nth-child(4) {
+      [class*="ms-Breadcrumb-item"] {
+        background: #979593;
+      }
+    }
+  }
+}
+
+:global {
+  .rest, .focus, .hover, .selected, .selectedfocus{
+    .ms-ResizeGroup{
+      padding-bottom: 20px;
+    }
+    span{
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+  .focus {
+    .ms-Breadcrumb-overflow {
+      border: 1px solid black;
+      color: #212121;
+    }
+  }
+
+  .hover {
+    .ms-Breadcrumb-overflow {
+      background: #f4f4f4;
+      color: #212121;
+    }
+  }
+
+  .selected {
+    .ms-Breadcrumb-overflow {
+      background: #dadada;
+      color: #212121;
+    }
+  }
+
+  .selectedfocus{
+    .ms-Breadcrumb-overflow{
+      background: #d0d0d0;
+      color: #212121;
+    }
+  }
+}

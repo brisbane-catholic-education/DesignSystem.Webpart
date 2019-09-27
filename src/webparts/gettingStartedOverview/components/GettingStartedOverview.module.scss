@@ -1,0 +1,35 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.gettingStartedOverview{
+  display: inherit;
+  [class*="ms-Grid-col"]{
+    > div{
+      button{
+        margin-top: 26px;
+        padding: 0;
+        width: auto;
+        height: auto;
+        > div {
+          > i {
+            display: block;
+            width: auto;
+            height: auto;
+            font-size: 44px;
+            line-height: 1;
+            margin: 0;
+          }
+        }
+      }
+    }
+    p{
+      margin-top: 20px;
+    }
+  }
+}
+
+[class="bce-design-system-sectionTitle"]{
+  font-size: 24px;
+  font-weight: 600;
+  color: #054166!important;
+  padding-bottom: 20px;
+  width: 100%;
+}

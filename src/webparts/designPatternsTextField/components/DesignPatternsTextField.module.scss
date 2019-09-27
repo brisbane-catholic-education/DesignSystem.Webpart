@@ -1,0 +1,82 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsTextField {
+  [class*="ms-TextField-wrapper"]{
+    width: 100%;
+  }
+  .textField{
+    [class*="ms-TextField"]{
+      max-width: 277px;
+    }
+    [class*="hover"]{
+      [class*="ms-TextField-fieldGroup"]{
+        border: 1px solid black!important;
+      }
+    }
+  
+    [class*="selected"]{
+      [class*="ms-TextField-fieldGroup"]{
+          border-color: #0979BE!important;
+      }
+    }
+  }
+
+  .underline{
+    [class="bce-design-system-box"]{
+      background: #f3f2f1;
+    }
+    [class*="heading"]{
+      span{
+        width: auto!important;
+      }
+    }
+
+    [class*="hover"]{
+      [class*="ms-TextField--underlined"]{
+        border-color: #212121;
+      }
+      [class*="ms-TextField--borderless"]{
+        input{
+          border-bottom:1px solid #212121;
+        }
+      }
+    }
+
+    [class*="saved"]{
+      [class*="ms-TextField--borderless"]{
+        input{
+          border-bottom:1px solid #212121;
+        }
+      }
+    }
+
+    [class*="selected"], [class*="saving"]{
+      [class*="ms-TextField--underlined"]{
+        border-color: #0979BE;
+      }
+      [class*="ms-TextField--borderless"]{
+        input{
+          background: white;
+          border-bottom:1px solid #0979BE; 
+        }
+      }
+    }
+
+    [class*="error"]{
+      [class*="ms-TextField--underlined"]{
+        border-color: #a80000;
+      }
+      [class*="ms-TextField--borderless"]{
+        input{
+          color: #a80000;
+          border-bottom:1px solid #a80000;
+        }
+        ::placeholder {
+          color: #a80000;
+        }
+      }
+      
+    }
+  }
+  
+}

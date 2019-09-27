@@ -1,0 +1,15 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsTopNav {
+  img{
+    width:100%;
+  }
+  [class*="root_"]{
+    clear: both;
+    border: 1px solid #C8C8C8;
+    background-color: white;
+  }
+  [class*='ms-OverflowSet-item']{
+    padding-right: 24px;
+  }
+}

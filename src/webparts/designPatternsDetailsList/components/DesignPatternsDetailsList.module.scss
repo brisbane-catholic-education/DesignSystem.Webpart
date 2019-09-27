@@ -1,0 +1,152 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsDetailsList {
+
+  [class*="ms-DetailsHeader"] {
+    [role="columnheader"]:nth-child(3) {
+      font-size: 20px;
+    }
+
+    [role="columnheader"]:nth-child(4) {
+      span {
+        font-size: 14px;
+      }
+
+    }
+
+    [role="columnheader"]:nth-child(6),
+    [role="columnheader"]:nth-child(8),
+    [role="columnheader"]:nth-child(10),
+    [role="columnheader"]:nth-child(12) {
+      span {
+        font-size: 12px;
+      }
+
+    }
+  }
+
+  [class*="ms-DetailsList"] {
+    clear: both;
+    width: 100%;
+
+  }
+
+  [class*="ms-DetailsRow-cell"] {
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  [class*="ms-Viewport"] {
+    margin-top: 50px;
+  }
+
+  [class*="ms-Grid-row"] {
+    padding-top: 12px;
+    padding-bottom: 9px;
+  }
+
+  [class*="ms-sm2"] {
+    padding-top: 50px;
+  }
+
+  [class*="ms-lg10"] {
+    [class*="ms-List-page"] {
+      >div:nth-child(2) {
+        >div {
+          background: #f4f4f4;
+
+          [class*="ms-DetailsRow-cell"]:nth-child(2) {
+            text-decoration: underline;
+          }
+
+          [class*="ms-DetailsRow-check"] {
+            opacity: 1;
+
+            [class*="ms-Check"] {
+              &::before {
+                background: white;
+              }
+            }
+          }
+        }
+      }
+
+      >div:nth-child(3) {
+        >div {
+          background: #f4f4f4;
+
+          [class*="ms-DetailsRow-check"] {
+            opacity: 1;
+
+            [class*="ms-Check"] {
+              &::before {
+                background: white;
+              }
+
+              [class*="ms-Check-check"] {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+      >div:nth-child(5) {
+        >div {
+          background: #dadada !important;
+        }
+      }
+
+      >div:nth-child(6) {
+        >div {
+          border: 1px solid #666666;
+          [class*="ms-DetailsRow-check"] {
+            opacity: 1;
+
+            [class*="ms-Check"] {
+              &::before {
+                background: white;
+              }
+            }
+          }
+        }
+      }
+      >div:nth-child(7) {
+        >div {
+          >div[class*="ms-DetailsRow-cell"]{
+            border: 1px solid #666666;
+            [class*="ms-DetailsRow-check"] {
+              opacity: 1;
+  
+              [class*="ms-Check"] {
+                &::before {
+                  background: white;
+                }
+              }
+            }
+          }
+          
+        }
+      }
+      >div:nth-child(8) {
+        >div {
+          [role="rowheader"]{
+            border: 1px solid #666666;
+            [class*="ms-DetailsRow-check"] {
+              opacity: 1;
+  
+              [class*="ms-Check"] {
+                &::before {
+                  background: white;
+                }
+              }
+            }
+          }
+          
+        }
+      }
+    }
+
+  }
+
+}

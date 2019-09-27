@@ -1,0 +1,12 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.foundationsIllustration {
+  [class*="bce-design-system-box"]{
+    text-align: center;
+    padding: 50px;
+    img{
+      width: 90%;
+      margin: auto;
+    }
+  }
+}

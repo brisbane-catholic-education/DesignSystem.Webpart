@@ -1,0 +1,75 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.foundationsIconography {
+  a {
+    text-decoration: none;
+    button {
+      i {
+        color: black;
+      }
+    }
+  }
+
+  .howToUse {
+    padding: 10px;
+    border: 1px solid #E6E6E6;
+    ;
+    background-color: #FBFBFB;
+    display: flex;
+
+    [class*="ms-Button-flexContainer"] {
+      i {
+        margin-top: -5px;
+      }
+    }
+  }
+
+  .sample {
+    border: 1px solid #E6E6E6;
+    ;
+    background-color: #FBFBFB;
+    display: flex;
+
+    [class*="ms-Grid-row"] {
+      padding-left: 30px;
+      padding-top: 24px;
+      padding-bottom: 0px;
+      @media screen and (max-width: $ms-screen-max-md) {
+        padding-left: 5px;
+      }
+    }
+
+    [class*="ms-Grid-col"] {
+      text-align: center;
+      min-height: 124px;
+    }
+
+    i {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 22px;
+      margin-top: 8px;
+    }
+  }
+
+  [class*="ms-lg6"] {
+    img {
+      width: 100%;
+    }
+  }
+
+  .scale {
+    >[class*="ms-Grid-col"]:first-child {
+      padding-bottom: 8px;
+    }
+
+    >[class*="ms-Grid-col"]:nth-child(2) {
+      @media screen and (max-width: $ms-screen-max-md) {
+        padding-bottom: 8px;
+      }
+    }
+  }
+}

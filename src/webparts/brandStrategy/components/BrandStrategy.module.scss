@@ -1,0 +1,73 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.brandStrategy {
+  display: inherit;
+
+  .brandValue {
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+    }
+  }
+
+  @media screen and (max-width: $ms-screen-max-md) {
+    [class*="bce-design-system-blockquote-extraLarge"] {
+      padding-top: 24px;
+      padding-left: 0px;
+
+      &:before {
+        font-size: 100px;
+        margin-left: -5px;
+        top: 25px;
+      }
+
+      h1 {
+        font-size: 24px;
+        line-height: 42px;
+        margin-left: 40px;
+      }
+
+      p {
+        margin-left: 40px;
+      }
+    }
+  }
+
+  .brandIdea {
+    h1 {
+      font-size: 80px;
+      color: #8954A5;
+      line-height: 94px;
+      span {
+        font-size: 80px;
+        color: #8954A5;
+        opacity: 0.5;
+        line-height: 94px;
+      }
+    }
+    @media screen and (max-width: $ms-screen-max-lg) {
+      h1 {
+        font-size: 34px;
+        line-height: 34px;
+        margin: 0px;
+        span {
+          font-size: 34px;
+          line-height: 34px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: $ms-screen-max-md) {
+    h1 {
+      font-size: 24px;
+      line-height: 32px;
+      margin: 0px;
+      span {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+  }
+
+}

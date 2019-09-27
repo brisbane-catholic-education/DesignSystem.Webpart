@@ -1,0 +1,12 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsPivot {
+  .tab{
+    [class*="ms-Pivot-text"]{
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: 600;
+    }
+  }
+
+}

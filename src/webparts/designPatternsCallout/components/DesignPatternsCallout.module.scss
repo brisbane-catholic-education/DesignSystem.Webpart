@@ -1,0 +1,65 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsCallout {
+  [id="bce-design-system-example-callOutButton"] {
+    width: 100px;
+  }
+}
+
+:global {
+  .bce-design-system-callout-singleLine, .bce-design-system-callout-multiLine {
+    .bce-design-system-callout-container {
+      width: 332px;
+      p,
+      span {
+        width: 290px;
+      }
+    }
+  }
+
+  .bce-design-system-callout-default {
+    .bce-design-system-callout-container {
+      width: 300px;
+    }
+  }
+
+  .ms-CommandBar{
+    background: transparent!important;
+    border-top: 1px solid #EAEAE9;
+    .ms-CommandBar-primaryCommands{
+      margin-left: 0px;
+      >div:nth-child(1){
+        i{
+          color:#008272!important;
+        }
+        
+      }
+      >div:nth-child(2){
+        i{
+          color:#5C2D91!important;
+        }
+        
+      }
+      >div:nth-child(3){
+        i{
+          color:#E81123!important;
+        }
+        
+      }
+      >div:nth-child(4){
+        i{
+          color:#666666!important;
+        }
+        
+      }
+    }
+    .ms-CommandBar-sideCommands {
+      padding-right: 0px;
+    }
+    .ms-CommandBarItem-commandText{
+      line-height: 40px;
+      color: #0979BE;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "0f3f5628-5fa0-42b9-98af-612e365783f3",
+  "alias": "DesignPatternGlobalNavComponentsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Design Pattern Global Nav Components" },
+    "description": { "default": "Design Pattern Global Nav Components description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Design Pattern Global Nav Components"
+    }
+  }]
+}

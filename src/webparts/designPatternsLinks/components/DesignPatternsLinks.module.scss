@@ -1,0 +1,41 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsLinks {
+  .visited {
+    color: #8857a4;
+  }
+
+  [class='background-dark-navy'] {
+    padding: 15px;
+  }
+
+  [class*="hover"] {
+    a {
+      color: #054166 !important;
+    }
+
+  }
+
+  [class*="focus"] {
+    a {
+      border: 1px solid #979797;
+      padding: 5px;
+    }
+  }
+
+  [class*="pressed"] {
+    a {
+      color: #054166 !important;
+    }
+
+  }
+
+  [class*='is-disabled'] {
+    color: #979797 !important;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+}

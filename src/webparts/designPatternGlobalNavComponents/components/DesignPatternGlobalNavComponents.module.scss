@@ -1,0 +1,42 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternGlobalNavComponents {
+ img{
+   width:100%;
+ }
+ [class*='ms-Grid-row']{
+   [class*='ms-Link']{
+     float: left;
+     width: 32px;
+     height: 32px;
+     background-color: #FFFFFF;
+     border: 1px solid #A6A6A6;
+     padding: 0px;
+     margin-right: 8px;
+      i{
+        vertical-align: middle;
+        line-height: 32px;
+        height: 32px;
+        text-align: center;
+        color: #297FCA;
+      }
+   }
+   [class*='bce-design-system-apps']{
+     width: 100px!important;
+     float: left;
+     span{
+       font-size: 13px;
+       color: #297FCA;
+       line-height: 32px;
+     }
+   }
+   [class*='bce-design-system-search']{
+     width: 224px!important;
+     float: left;
+     margin-right: 8px;
+     i{
+      color: #297FCA;
+     }
+   }
+ }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "56214629-9906-47e1-872f-95686394b1be",
+  "alias": "DesignPatternsCalloutWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Design Patterns Callout" },
+    "description": { "default": "Design Patterns Callout description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Design Patterns Callout",
+      "isCalloutVisible": "false",
+      "isCalloutVisible2": "false",
+      "isCalloutVisible3": "false",
+      "isCalloutVisible4": "false",
+      "isCalloutVisible5": "false"
+
+    }
+  }]
+}

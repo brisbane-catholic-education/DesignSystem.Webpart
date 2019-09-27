@@ -1,0 +1,315 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "getting-started-overview-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gettingStartedOverview/GettingStartedOverviewWebPart.js",
+          "manifest": "./src/webparts/gettingStartedOverview/GettingStartedOverviewWebPart.manifest.json"
+        }
+      ]
+    },
+    "homepage-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/homepage/HomepageWebPart.js",
+          "manifest": "./src/webparts/homepage/HomepageWebPart.manifest.json"
+        }
+      ]
+    },
+    "getting-started-design-principles-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gettingStartedDesignPrinciples/GettingStartedDesignPrinciplesWebPart.js",
+          "manifest": "./src/webparts/gettingStartedDesignPrinciples/GettingStartedDesignPrinciplesWebPart.manifest.json"
+        }
+      ]
+    },
+    "brand-strategy-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/brandStrategy/BrandStrategyWebPart.js",
+          "manifest": "./src/webparts/brandStrategy/BrandStrategyWebPart.manifest.json"
+        }
+      ]
+    },
+    "brand-identity-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/brandIdentity/BrandIdentityWebPart.js",
+          "manifest": "./src/webparts/brandIdentity/BrandIdentityWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-layout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsLayout/FoundationsLayoutWebPart.js",
+          "manifest": "./src/webparts/foundationsLayout/FoundationsLayoutWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-button-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsButton/DesignPatternsButtonWebPart.js",
+          "manifest": "./src/webparts/designPatternsButton/DesignPatternsButtonWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-choice-fields-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsChoiceFields/DesignPatternsChoiceFieldsWebPart.js",
+          "manifest": "./src/webparts/designPatternsChoiceFields/DesignPatternsChoiceFieldsWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-label-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsLabel/DesignPatternsLabelWebPart.js",
+          "manifest": "./src/webparts/designPatternsLabel/DesignPatternsLabelWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-links-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsLinks/DesignPatternsLinksWebPart.js",
+          "manifest": "./src/webparts/designPatternsLinks/DesignPatternsLinksWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-dropdown-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsDropdown/DesignPatternsDropdownWebPart.js",
+          "manifest": "./src/webparts/designPatternsDropdown/DesignPatternsDropdownWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-colours-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsColours/FoundationsColoursWebPart.js",
+          "manifest": "./src/webparts/foundationsColours/FoundationsColoursWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-typography-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsTypography/FoundationsTypographyWebPart.js",
+          "manifest": "./src/webparts/foundationsTypography/FoundationsTypographyWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-text-field-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsTextField/DesignPatternsTextFieldWebPart.js",
+          "manifest": "./src/webparts/designPatternsTextField/DesignPatternsTextFieldWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-typography-in-action-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsTypographyInAction/FoundationsTypographyInActionWebPart.js",
+          "manifest": "./src/webparts/foundationsTypographyInAction/FoundationsTypographyInActionWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-breadcrumb-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsBreadcrumb/DesignPatternsBreadcrumbWebPart.js",
+          "manifest": "./src/webparts/designPatternsBreadcrumb/DesignPatternsBreadcrumbWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-iconography-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsIconography/FoundationsIconographyWebPart.js",
+          "manifest": "./src/webparts/foundationsIconography/FoundationsIconographyWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-illustration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsIllustration/FoundationsIllustrationWebPart.js",
+          "manifest": "./src/webparts/foundationsIllustration/FoundationsIllustrationWebPart.manifest.json"
+        }
+      ]
+    },
+    "foundations-photography-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/foundationsPhotography/FoundationsPhotographyWebPart.js",
+          "manifest": "./src/webparts/foundationsPhotography/FoundationsPhotographyWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-pattern-global-nav-components-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternGlobalNavComponents/DesignPatternGlobalNavComponentsWebPart.js",
+          "manifest": "./src/webparts/designPatternGlobalNavComponents/DesignPatternGlobalNavComponentsWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-command-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsCommandBar/DesignPatternsCommandBarWebPart.js",
+          "manifest": "./src/webparts/designPatternsCommandBar/DesignPatternsCommandBarWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-overflow-set-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsOverflowSet/DesignPatternsOverflowSetWebPart.js",
+          "manifest": "./src/webparts/designPatternsOverflowSet/DesignPatternsOverflowSetWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-pivot-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsPivot/DesignPatternsPivotWebPart.js",
+          "manifest": "./src/webparts/designPatternsPivot/DesignPatternsPivotWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-details-list-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsDetailsList/DesignPatternsDetailsListWebPart.js",
+          "manifest": "./src/webparts/designPatternsDetailsList/DesignPatternsDetailsListWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-persona-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsPersona/DesignPatternsPersonaWebPart.js",
+          "manifest": "./src/webparts/designPatternsPersona/DesignPatternsPersonaWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-pattern-message-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternMessageBar/DesignPatternMessageBarWebPart.js",
+          "manifest": "./src/webparts/designPatternMessageBar/DesignPatternMessageBarWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-callout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsCallout/DesignPatternsCalloutWebPart.js",
+          "manifest": "./src/webparts/designPatternsCallout/DesignPatternsCalloutWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-dialog-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsDialog/DesignPatternsDialogWebPart.js",
+          "manifest": "./src/webparts/designPatternsDialog/DesignPatternsDialogWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-panel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsPanel/DesignPatternsPanelWebPart.js",
+          "manifest": "./src/webparts/designPatternsPanel/DesignPatternsPanelWebPart.manifest.json"
+        }
+      ]
+    },
+    "resources-design-and-development-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resourcesDesignAndDevelopment/ResourcesDesignAndDevelopmentWebPart.js",
+          "manifest": "./src/webparts/resourcesDesignAndDevelopment/ResourcesDesignAndDevelopmentWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-top-nav-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsTopNav/DesignPatternsTopNavWebPart.js",
+          "manifest": "./src/webparts/designPatternsTopNav/DesignPatternsTopNavWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-left-nav-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsLeftNav/DesignPatternsLeftNavWebPart.js",
+          "manifest": "./src/webparts/designPatternsLeftNav/DesignPatternsLeftNavWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-search-box-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsSearchBox/DesignPatternsSearchBoxWebPart.js",
+          "manifest": "./src/webparts/designPatternsSearchBox/DesignPatternsSearchBoxWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-message-bar-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsMessageBar/DesignPatternsMessageBarWebPart.js",
+          "manifest": "./src/webparts/designPatternsMessageBar/DesignPatternsMessageBarWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GettingStartedOverviewWebPartStrings": "lib/webparts/gettingStartedOverview/loc/{locale}.js",
+    "HomepageWebPartStrings": "lib/webparts/homepage/loc/{locale}.js",
+    "GettingStartedDesignPrinciplesWebPartStrings": "lib/webparts/gettingStartedDesignPrinciples/loc/{locale}.js",
+    "BrandStrategyWebPartStrings": "lib/webparts/brandStrategy/loc/{locale}.js",
+    "BrandIdentityWebPartStrings": "lib/webparts/brandIdentity/loc/{locale}.js",
+    "FoundationsLayoutWebPartStrings": "lib/webparts/foundationsLayout/loc/{locale}.js",
+    "DesignPatternsButtonWebPartStrings": "lib/webparts/designPatternsButton/loc/{locale}.js",
+    "DesignPatternsChoiceFieldsWebPartStrings": "lib/webparts/designPatternsChoiceFields/loc/{locale}.js",
+    "DesignPatternsLabelWebPartStrings": "lib/webparts/designPatternsLabel/loc/{locale}.js",
+    "DesignPatternsLinksWebPartStrings": "lib/webparts/designPatternsLinks/loc/{locale}.js",
+    "DesignPatternsDropdownWebPartStrings": "lib/webparts/designPatternsDropdown/loc/{locale}.js",
+    "FoundationsColoursWebPartStrings": "lib/webparts/foundationsColours/loc/{locale}.js",
+    "FoundationsTypographyWebPartStrings": "lib/webparts/foundationsTypography/loc/{locale}.js",
+    "DesignPatternsTextFieldWebPartStrings": "lib/webparts/designPatternsTextField/loc/{locale}.js",
+    "FoundationsTypographyInActionWebPartStrings": "lib/webparts/foundationsTypographyInAction/loc/{locale}.js",
+    "DesignPatternsBreadcrumbWebPartStrings": "lib/webparts/designPatternsBreadcrumb/loc/{locale}.js",
+    "FoundationsIconographyWebPartStrings": "lib/webparts/foundationsIconography/loc/{locale}.js",
+    "FoundationsIllustrationWebPartStrings": "lib/webparts/foundationsIllustration/loc/{locale}.js",
+    "FoundationsPhotographyWebPartStrings": "lib/webparts/foundationsPhotography/loc/{locale}.js",
+    "DesignPatternGlobalNavComponentsWebPartStrings": "lib/webparts/designPatternGlobalNavComponents/loc/{locale}.js",
+    "DesignPatternsCommandBarWebPartStrings": "lib/webparts/designPatternsCommandBar/loc/{locale}.js",
+    "DesignPatternsOverflowSetWebPartStrings": "lib/webparts/designPatternsOverflowSet/loc/{locale}.js",
+    "DesignPatternsPivotWebPartStrings": "lib/webparts/designPatternsPivot/loc/{locale}.js",
+    "DesignPatternsDetailsListWebPartStrings": "lib/webparts/designPatternsDetailsList/loc/{locale}.js",
+    "DesignPatternsPersonaWebPartStrings": "lib/webparts/designPatternsPersona/loc/{locale}.js",
+    "DesignPatternMessageBarWebPartStrings": "lib/webparts/designPatternMessageBar/loc/{locale}.js",
+    "DesignPatternsCalloutWebPartStrings": "lib/webparts/designPatternsCallout/loc/{locale}.js",
+    "DesignPatternsDialogWebPartStrings": "lib/webparts/designPatternsDialog/loc/{locale}.js",
+    "DesignPatternsPanelWebPartStrings": "lib/webparts/designPatternsPanel/loc/{locale}.js",
+    "ResourcesDesignAndDevelopmentWebPartStrings": "lib/webparts/resourcesDesignAndDevelopment/loc/{locale}.js",
+    "DesignPatternsTopNavWebPartStrings": "lib/webparts/designPatternsTopNav/loc/{locale}.js",
+    "DesignPatternsLeftNavWebPartStrings": "lib/webparts/designPatternsLeftNav/loc/{locale}.js",
+    "DesignPatternsSearchBoxWebPartStrings": "lib/webparts/designPatternsSearchBox/loc/{locale}.js",
+    "DesignPatternsMessageBarWebPartStrings": "lib/webparts/designPatternsMessageBar/loc/{locale}.js"
+  }
+}

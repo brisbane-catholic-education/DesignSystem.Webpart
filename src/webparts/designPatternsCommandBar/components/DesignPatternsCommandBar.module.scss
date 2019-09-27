@@ -1,0 +1,35 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsCommandBar {
+
+ .defaultCommandBar{
+   width:100%;
+   clear: both;
+   .searchBox{
+    float: left;
+    height: 40px;
+    background: white;
+    max-width: 208px;
+  }
+  [class*="ms-CommandBar"]{
+
+  }
+  .leftButton{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #f4f4f4;
+  }
+ }
+ img {
+   width: 100%
+ }
+}
+
+:global{
+  .ms-Callout{
+    li{
+      margin:5px;
+    }
+  }
+}

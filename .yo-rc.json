@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "onprem19",
+    "version": "1.8.2",
+    "libraryName": "bce-design-system-webpart",
+    "libraryId": "be72c62b-6760-4f3c-a6ea-2b6855c0c5e5",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

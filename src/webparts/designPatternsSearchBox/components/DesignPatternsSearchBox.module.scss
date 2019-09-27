@@ -1,0 +1,33 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.designPatternsSearchBox {
+  [class*="ms-lg7"],[class*="ms-lg5"]{
+    [class*="ms-SearchBox"]{
+      max-width: 200px;
+    }
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  [class*="focus"]{
+    > [class*="ms-SearchBox"]{
+      border: 1px solid #0979BE!important;
+    }
+    > [class*="ms-SearchBox"][class*="is-underlined"]{
+      border-bottom: 1px solid #0979BE!important;
+      border-top: none!important; 
+      border-left: none!important;
+      border-right: none!important;
+    }
+  }
+  [class*="hover"]{
+    > [class*="ms-SearchBox"]{
+      	border: 1px solid #212121!important;
+    }
+    > [class*="ms-SearchBox"][class*="is-underlined"]{
+      border-bottom: 1px solid #212121!important;
+      border-top: none!important;
+      border-left: none!important;
+      border-right: none!important;
+    }
+  }
+}

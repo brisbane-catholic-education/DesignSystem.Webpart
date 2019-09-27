@@ -1,0 +1,67 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.foundationsTypographyInAction {
+  .table{
+    overflow-x: auto;
+    [class*="bce-design-system-table"]{
+      width: 100%;
+    }
+  }
+  .visited{
+    color: #8857a4!important;
+  }
+  .borderLeft {
+    border-left: 4px solid #8857a4;
+    display: flow-root;
+
+    span,
+    p {
+      padding-left: 13px
+    }
+  }
+
+  .borderBottom {
+    border-bottom: 4px solid #8857a4;
+    max-width: 500px;
+    padding-bottom: 13px;
+  }
+
+  .left {
+    width: 75%;
+    @media screen and (max-width: $ms-screen-max-md) {
+      width: 100%;
+    }
+  }
+
+  .right {
+    max-width: 200px;
+    padding: 10px;
+    background-color: #FBFBFB;
+    float: right;
+    margin-right: -103px;
+    margin-top: -47px;
+    border-left: 1px solid #979797;
+    border-bottom: 1px solid #979797;
+
+    @media screen and (max-width: $ms-screen-max-lg) {
+      max-width: 400px;
+      padding: 0px;
+      padding-bottom: 10px;
+      background-color: transparent;
+      float: left;
+      margin: 0px;
+      border: none;
+      width: 100%;
+    }
+  }
+
+  .darkBackground {
+    background-color: #054166;
+    max-width: 400px;
+    padding: 10px;
+
+    p {
+      color: white;
+    }
+  }
+}
