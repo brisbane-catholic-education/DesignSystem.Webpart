@@ -12,7 +12,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
           <div className = { styles.homepage__coverContent } >
             <h1>Our <strong>Design System</strong></h1>
             <p>Our design system helps us work together to build great digital experience that drive learning outcomes for our aspiring community</p>
-            <p><DefaultButton text="Getting started" /></p>
+            <p><DefaultButton href="./Overview.aspx" text="Getting started" /></p>
             <hr/>
             <p><img src="https://via.placeholder.com/282x124" alt="" width="141" height="62" className = { styles.homepage__coverLogo }/></p>
             <div className = { styles.homepage } >

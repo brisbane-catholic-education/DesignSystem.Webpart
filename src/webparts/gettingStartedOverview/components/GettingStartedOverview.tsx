@@ -23,7 +23,7 @@ export default class GettingStartedOverview extends React.Component<IGettingStar
                   downloading the code from- (code sharing to be discussed). </p>
                 <ul>
                   <li>Review the Design System Guidelines</li>
-                  <li>Get started with our <a href="">code base</a></li>
+                  <li>Get started with our <a href="https://github.com/brisbane-catholic-education">code base</a></li>
                 </ul>
               </div>
               <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg6' >
@@ -34,7 +34,7 @@ export default class GettingStartedOverview extends React.Component<IGettingStar
                   we've got you covered with the design resources you need. </p>
                 <ul>
                   <li> Review the Design System Guidelines </li>
-                  <li>Get started with our <a href="">design toolkit</a> within <a href="">resources</a>. </li>
+                  <li>Get started with our <a href="https://developer.microsoft.com/en-us/fabric">design toolkit</a> within <a href="">resources</a>. </li>
                 </ul>
               </div>
             </div>

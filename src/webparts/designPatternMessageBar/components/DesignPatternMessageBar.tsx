@@ -15,9 +15,9 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
           status information. You can use a MessageBar to tell the user about a situation
           that does not require their immediate attention and therefore does not need to
           block other activities. </p>
-          <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsMessageBar" target="_blank" title="BCE Github - Button">
             BCE Github - MessageBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/messagebar" target="_blank" title="BCE Github - Button">
             UI Fabric - MessageBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
       </div>

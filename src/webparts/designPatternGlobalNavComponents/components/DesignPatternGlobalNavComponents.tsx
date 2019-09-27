@@ -17,9 +17,9 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
             of an app or a site. In larger configurations, the Nav is always on-screen, usually
             on the left of the view. In smaller configurations, the Nav may collapse into a
             skinnier version or be completely hidden until the user taps an icon. </p>
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternGlobalNavComponents" target="_blank" title="BCE Github - Button">
               BCE Github - BCE Global Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternGlobalNavComponents" target="_blank" title="BCE Github - Button">
               BCE Github - BCE Global Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

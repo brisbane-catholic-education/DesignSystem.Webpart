@@ -16,10 +16,10 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
             <p className="bce-design-system-p-l">The TextFieId component enables a user to type text into an app. It's typically
             used to capture a single line of text, but can be configured to capture multiple
           lines of text The text displays on the screen in a simple, uniform format. </p>
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsTextFields" target="_blank" title="BCE Github - TextField">
+              BCE Github - TextField  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/textfield" target="_blank" title="BCE Github - TextField">
-              BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/textfield" target="_blank" title="BCE Github - TextField">
-              BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              UI Fabric - TextField <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className={styles.textField + " ms-Grid-row bce-design-system-row"}>

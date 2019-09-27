@@ -31,6 +31,10 @@
     @media screen and (max-width: $ms-screen-max-md) {
       width: 100%;
     }
+    @media screen and (max-width: $ms-screen-max-lg) {
+      width: 100%;
+      clear: both;
+    }
   }
 
   .right {

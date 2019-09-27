@@ -77,7 +77,7 @@ export default class BrandIdentity extends React.Component<IBrandIdentityProps, 
               </div>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
                 <p>To learn more about Brisbane Catholic Education's visual identity, please download our brand guidelines</p>
-                <PrimaryButton>Download brand guidelines</PrimaryButton>
+                <PrimaryButton href="https://sketch.cloud/s/zbLK4">Download brand guidelines</PrimaryButton>
               </div>
             </div>
           </div>

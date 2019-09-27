@@ -19,9 +19,9 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
       <div className={styles.designPatternsCallout + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
           <p className="bce-design-system-p-l">Callouts are a powerful way to simplify a user interface. They host tips and other information users need when they need it, with minimal effort on their part. However, poorly designed Callouts can be annoying, distracting, unhelpful, overwhelming, or in the way.</p>
-          <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCallout" target="_blank" title="BCE Github - Button">
             BCE GitHub - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/callout" target="_blank" title="BCE Github - Button">
             UI Fabric - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
 

@@ -24,7 +24,7 @@ export default class DesignPatternsPanel extends React.Component<IDesignPatterns
               blocks interactions with the app view until dismissed either through clicking or
               tapping on the Overlay or by selecting a close or completion action within the
             Panel </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/panel" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPanel" target="_blank" title="BCE Github - Button">
               BCE Github - Panel  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/panel" target="_blank" title="BCE Github - Button">
               UI Fabric - Pane  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>

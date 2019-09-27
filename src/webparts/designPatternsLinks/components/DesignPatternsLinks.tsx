@@ -13,9 +13,9 @@ export default class DesignPatternsLinks extends React.Component<IDesignPatterns
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">Links Lead users to a different page or further information. It is the lightest weight
 clickable control, and is often used to reduce the visual complexity of a design. </p>
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLinks" target="_blank" title="BCE Github - Button">
               BCE Github - Links  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/label" target="_blank" title="BCE Github - Button">
               More at UI Fabirc - Link  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

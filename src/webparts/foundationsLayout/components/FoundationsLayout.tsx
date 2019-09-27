@@ -12,7 +12,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           <p className="bce-design-system-p-l">We use a flexible grid with percentage-based columns, fixed margins
             and gutters. The columns are used to adjust the layout, making the
               best use of the space available. </p>
-          <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="" target="_blank" title="BCE Github - Button">
             Download the asset (Sketch File)  <IconButton iconProps={{ iconName: 'Download' }} title='Download'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/layout" target="_blank" title="BCE Github - Button">
             UI Fabric - Layout  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>

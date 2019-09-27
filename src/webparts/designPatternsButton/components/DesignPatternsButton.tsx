@@ -15,10 +15,10 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <div className='ms-Grid-col ms-xxl9' >
             <p className="bce-design-system-p-l">Buttons are best used to enable a user to commit a change or complete steps in
               a task. They are typically found inside forms, dialogs, panels or pages. </p>
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsButton" target="_blank" title="Sketch file">
               BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/button" target="_blank" title="More at UI Fabric - Button">
-              BCE Github - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              UI Fabric - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         

@@ -17,12 +17,12 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
             one or more options and boxes can be checked and unchecked. Radio Button
             fields will allow only one option to be selected. A Radio Button cannot be
             unchecked. </p><br />
-            <DefaultButton className="bce-design-system-buttom" href="http://bing.com" target="_blank" title="BCE Github - Choice Field">
-              BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/button" target="_blank" title="More at UI Fabric - Button">
-              BCE Github - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/button" target="_blank" title="More at UI Fabric - Button">
-              BCE Github - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsChoiceFields" target="_blank" title="BCE Github - Choice Field">
+              BCE Github - Choice Field  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/checkbox" target="_blank" title="More at UI Fabric - Button">
+              UI Fabric - Checkbox <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="hhttps://developer.microsoft.com/en-us/fabric#/controls/web/choicegroup" target="_blank" title="More at UI Fabric - Button">
+            UI Fabric  - ChoiceGroup <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className={styles.checkboxSection + " ms-Grid-row bce-design-system-row"}>

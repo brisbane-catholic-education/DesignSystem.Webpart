@@ -251,7 +251,7 @@ export default class DesignPatternsDetailsList extends React.Component<IDesignPa
           <p className="bce-design-system-p-l">DetailsList is a derivative of the List component. It is a robust way to display an
               information rich collection of items. It can support powerful ways to aid a user in
           finding content with sorting, grouping and filtering. </p>
-          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/detailslist" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDetailsList" target="_blank" title="BCE Github - Button">
             BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/detailslist" target="_blank" title="BCE Github - Button">
             BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
