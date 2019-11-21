@@ -281,10 +281,10 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
     return (
       <span className="ms-TextField-description"><IconButton iconProps={{ iconName: 'CheckMark' }} title='Saved'></IconButton> {props.description}</span>
     );
-  };
+  }
   private _onRenderSavingDescription = (props: ITextFieldProps): JSX.Element => {
     return (
       <span className="ms-TextField-description"><Spinner size={SpinnerSize.xSmall} /> {props.description}</span>
     );
-  };
+  }
 }

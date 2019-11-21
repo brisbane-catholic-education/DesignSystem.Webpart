@@ -14,7 +14,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
             <p>Our design system helps us work together to build great digital experience that drive learning outcomes for our aspiring community</p>
             <p><DefaultButton href="./Overview.aspx" text="Getting started" /></p>
             <hr/>
-            <p><img src="https://via.placeholder.com/282x124" alt="" width="141" height="62" className = { styles.homepage__coverLogo }/></p>
+            <p><img src="https://via.placeholder.com/282x124" alt="image" width="141" height="62" className = { styles.homepage__coverLogo }/></p>
             <div className = { styles.homepage } >
               <IconButton iconProps={{iconName: 'PencilReply'}} title='Designer'></IconButton>
             </div>

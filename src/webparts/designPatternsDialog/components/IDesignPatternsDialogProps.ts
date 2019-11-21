@@ -1,3 +1,3 @@
 export interface IDesignPatternsDialogProps {
-  hideDialog: boolean
+  hideDialog: boolean;
 }

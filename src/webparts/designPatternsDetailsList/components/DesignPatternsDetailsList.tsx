@@ -41,7 +41,7 @@ const columns2: IColumn[] = [
     }
   },
   { key: 'column3', name: 'File Size', fieldName: 'fileSize', minWidth: 100, maxWidth: 200, isResizable: true }
-]
+];
 
 const columns: IColumn[] = [
   {

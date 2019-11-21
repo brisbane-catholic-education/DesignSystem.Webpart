@@ -78,7 +78,7 @@ patterns. such as wizards. galleries, and dashboards. </p>
         {item.name}
       </Link>
     );
-  };
+  }
 
   private _onRenderOverflowButton = (overflowItems: any[] | undefined): JSX.Element => {
     const buttonStyles: Partial<IButtonStyles> = {
@@ -90,5 +90,5 @@ patterns. such as wizards. galleries, and dashboards. </p>
       }
     };
     return <IconButton styles={buttonStyles} menuIconProps={{ iconName: 'More' }} menuProps={{ items: overflowItems! }} />;
-  };
+  }
 }

@@ -71,10 +71,10 @@ export default class FoundationsPhotography extends React.Component<IFoundations
             <div className='ms-Grid-col ms-sm12 ms-lg8 ' >
               <div className='ms-Grid-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6' >
-                  <img src='../PublishingImages/photography21.png' ></img>
+                  <img src='../PublishingImages/photography21.png' alt="photography" ></img>
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6 alignRight' >
-                  <img src='../PublishingImages/photography22.png' ></img>
+                  <img src='../PublishingImages/photography22.png' alt="photography" ></img>
                 </div>
               </div>
               <div className='ms-Grid-row'>
@@ -92,7 +92,7 @@ export default class FoundationsPhotography extends React.Component<IFoundations
               </div>
             </div>
             <div className='ms-Grid-col ms-sm12 ms-lg4 alignRight' >
-              <img src='../PublishingImages/photography23.png' ></img>
+              <img src='../PublishingImages/photography23.png' alt="photography" ></img>
             </div>
           </div>
 
@@ -100,10 +100,10 @@ export default class FoundationsPhotography extends React.Component<IFoundations
           <div className='ms-Grid-row bce-design-system-row ms-Grid'>
             <div className='ms-Grid-row'>
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg4 ' >
-                <img src='../PublishingImages/photography31.png' ></img>
+                <img src='../PublishingImages/photography31.png' alt="photography" ></img>
               </div>
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg4 alignRight' >
-                <img src='../PublishingImages/photography32.png' ></img>
+                <img src='../PublishingImages/photography32.png' alt="photography" ></img>
               </div>
             </div>
             <div className='ms-Grid-row'>

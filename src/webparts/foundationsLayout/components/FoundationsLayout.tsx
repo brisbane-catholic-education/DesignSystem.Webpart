@@ -18,7 +18,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
             UI Fabric - Layout  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
         </div>
       </div>
-    )
+    );
   }
 
   private breakpointSmall(): React.ReactElement<IFoundationsLayoutProps> {
@@ -76,7 +76,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           </tr>
         </table>
       </div>
-    )
+    );
   }
 
   private responsiveGrid(): React.ReactElement<IFoundationsLayoutProps> {
@@ -124,7 +124,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           </div><div className="ms-Grid-row bce-design-system-row" aria-label="Example of 1 equal column using the grid">
             <div className="ms-Grid-col ms-sm12 "><div >12</div></div></div></div>
       </div>
-    )
+    );
   }
 
   private layout(): React.ReactElement<IFoundationsLayoutProps> {
@@ -248,7 +248,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
 
         </div>
       </div>
-    </div>)
+    </div>);
   }
 
   private considerations(): React.ReactElement<IFoundationsLayoutProps> {
@@ -268,7 +268,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           </div>
         </div>
       </div>
-    )
+    );
   }
   public render(): React.ReactElement<IFoundationsLayoutProps> {
     return (

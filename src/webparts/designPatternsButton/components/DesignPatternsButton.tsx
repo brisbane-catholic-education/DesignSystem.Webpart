@@ -266,7 +266,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
         onClick: () => console.log('Send Mail')
       }
     ];
-  };
+  }
 
   private getOverlflowItems = () => {
     return [
@@ -295,6 +295,6 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
         }
       }
     ];
-  };
+  }
 
 }

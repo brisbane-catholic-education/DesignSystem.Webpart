@@ -103,13 +103,13 @@ export default class DesignPatternsPanel extends React.Component<IDesignPatterns
         <DefaultButton onClick={this._showPanel}>Cancel</DefaultButton>
       </div>
     );
-  };
+  }
 
   private _showPanel = () => {
     this.setState({ showPanel: true });
-  };
+  }
 
   private _hidePanel = () => {
     this.setState({ showPanel: false });
-  };
+  }
 }

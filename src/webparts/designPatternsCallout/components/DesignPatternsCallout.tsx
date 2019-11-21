@@ -48,10 +48,10 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-lg6' >
                   <span className="bce-design-system-subsectionTitle">Tooltip</span>
-                  <DefaultButton id="bce-design-system-calloutButton4" onClick={() => { this._onShowMenuClicked(4) }} text={this.state.isCalloutVisible[4] ? 'Hide callout' : 'Show callout'} />
+                  <DefaultButton id="bce-design-system-calloutButton4" onClick={() => this._onShowMenuClicked(4)} text={this.state.isCalloutVisible[4] ? 'Hide callout' : 'Show callout'} />
                   {this._createCallout(DirectionalHint.topLeftEdge, "bce-design-system-callout-singleLine", 4)}
                   <br /><br />
-                  <DefaultButton id="bce-design-system-calloutButton5" onClick={() => { this._onShowMenuClicked(5) }} text={this.state.isCalloutVisible[5] ? 'Hide callout' : 'Show callout'} />
+                  <DefaultButton id="bce-design-system-calloutButton5" onClick={() => this._onShowMenuClicked(5)} text={this.state.isCalloutVisible[5] ? 'Hide callout' : 'Show callout'} />
                   {this._createCallout(DirectionalHint.topLeftEdge, "bce-design-system-callout-multiLine", 5)}
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
           </div>
         }
       </Callout>
-    )
+    );
   }
   private farItems: ICommandBarItemProps[] = [
     { key: 'LearnMore', iconOnly: false, name: 'Learn more', href: 'https://dev.office.com/fabric' }
@@ -116,13 +116,13 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
     this.setState({
       isCalloutVisible: this.state.isCalloutVisible
     });
-  };
+  }
 
   private _onCalloutDismiss = (index: number): void => {
     this.state.isCalloutVisible[index] = false;
     this.setState({
       isCalloutVisible: this.state.isCalloutVisible
     });
-  };
+  }
 }
 

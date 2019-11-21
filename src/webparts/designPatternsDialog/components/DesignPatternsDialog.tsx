@@ -70,8 +70,8 @@ near the field they must correct. </p>
   }
   private _showDialog = (): void => {
     this.setState({ hideDialog: false });
-  };
+  }
   private _closeDialog = (): void => {
     this.setState({ hideDialog: true });
-  };
+  }
 }

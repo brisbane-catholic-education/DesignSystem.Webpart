@@ -83,7 +83,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
         ariaLabel: 'Places'
       }
     ];
-  };
+  }
 
   private getNavBarFarItems = () => {
     return [
@@ -104,7 +104,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
         iconOnly: true,
       }
     ];
-  };
+  }
 
   private getItems = () => {
     return [
@@ -159,7 +159,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
         }
       }
     ];
-  };
+  }
 
   private getOverlflowItems = () => {
     return [
@@ -188,7 +188,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
         }
       }
     ];
-  };
+  }
 
   private getFarItems = () => {
     return [
@@ -219,5 +219,5 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
         iconOnly: true
       }
     ];
-  };
+  }
 }

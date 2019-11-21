@@ -137,7 +137,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
         <CommandBarButton styles={{ root: { padding: '10px' } }} iconProps={{ iconName: item.icon }} />
       </TooltipHost>
     );
-  };
+  }
 
   private _onRenderIconOverflowButton = (overflowItems: any[] | undefined): JSX.Element => {
     return (
@@ -147,7 +147,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
         menuProps={{ items: overflowItems! }}
       />
     );
-  };
+  }
 
   private _onRenderItem = (item: IOverflowSetItemProps): JSX.Element => {
     return (
@@ -155,7 +155,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
         {item.name}
       </Link>
     );
-  };
+  }
 
   private _onRenderOverflowButton = (overflowItems: any[] | undefined): JSX.Element => {
     const buttonStyles: Partial<IButtonStyles> = {
@@ -167,5 +167,5 @@ skinnier version or be completely hidden until the user taps an icon. </p>
       }
     };
     return <IconButton styles={buttonStyles} menuIconProps={{ iconName: 'More' }} menuProps={{ items: overflowItems! }} />;
-  };
+  }
 }

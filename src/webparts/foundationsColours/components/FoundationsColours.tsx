@@ -61,7 +61,7 @@ export default class FoundationsColours extends React.Component<IFoundationsColo
             <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg3' >
               <div className="background-purple  bce-design-system-border"></div>
               <p className="bce-design-system-p-strong-black">Purple</p>
-              <span className="bce-design-system-p-strong-black">Class</span> purple  #885qa4
+              <span className="bce-design-system-p-strong-black">Class</span> purple  #885a4
               </div>
             <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg3' >
               <div className="background-orange bce-design-system-border"></div>
@@ -88,7 +88,7 @@ export default class FoundationsColours extends React.Component<IFoundationsColo
             <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg3' >
               <div className="background-gold bce-design-system-border"></div>
               <p className="bce-design-system-p-strong-black">Gold</p>
-              <span className="bce-design-system-p-strong-black">Class</span> glod  #ffcb05
+              <span className="bce-design-system-p-strong-black">Class</span> gold  #ffcb05
               </div>
           </div>
         </div>
