@@ -14,12 +14,12 @@ export default class ResourcesDesignAndDevelopment extends React.Component<IReso
           <p>To help projects stay aligned to the Design System we’ve provided a number of sketch files for designers to work from.</p>
           <span className="bce-design-system-subsectionTitle">Design System documentation</span>
           <p>This file contains the full documentation of the BCE Design System. Refer to this when needing to update the Design System itself. </p>
-          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/711c9869-75a4-4c80-937a-05346f93840b/a/rgQm27" target="_blank" title="BCE Github - Button">
             BCE DS Documentation   <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <br /><br />
           <span className="bce-design-system-subsectionTitle">Project starter kit sketch file</span>
           <p>This file contains the full documentation of the BCE Design System. Refer to this when needing to update the Design System itself. </p>
-          <DefaultButton className="bce-design-system-buttom" href="https://sketch.cloud/s/zbLK4" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/82c28595-a016-45a3-88c3-ff35f498430b" target="_blank" title="BCE Github - Button">
             BCE-Project-starter-kit.sketch   <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <br /><br />
             <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Fonts</h3>
