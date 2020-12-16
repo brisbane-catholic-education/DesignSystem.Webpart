@@ -11,7 +11,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
     return (
       <div className={styles.designPatternsTextField + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
-          <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Brand strategy overview</h3>
+          <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">The TextFieId component enables a user to type text into an app. It's typically
             used to capture a single line of text, but can be configured to capture multiple
@@ -19,11 +19,11 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsTextFields" target="_blank" title="BCE Github - TextField">
               BCE Github - TextField  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/textfield" target="_blank" title="BCE Github - TextField">
-              UI Fabric - TextField <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - TextField <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className={styles.textField + " ms-Grid-row bce-design-system-row"}>
-          <h3 className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Variants</h3>
+          <h3 className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Variants</h3>
           <span className="bce-design-system-sectionTitle2">Default TextField with Label</span>
           <p>The default text field is most common y used to accept data input on a form. </p>
           <div className="bce-design-system-box">
@@ -54,7 +54,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
 
               <div className='ms-Grid-col ms-sm12 ms-lg7' >
                 <div className='ms-Grid-row  bce-design-system-row'>
-                  <span className="bce-design-system-subsectionTitle2">State matrix</span>
+                  <span className="bce-design-system-subsectionTitleMedium">State matrix</span>
                 </div>
                 <div className='ms-Grid-row  bce-design-system-row'>
                   <div className='ms-Grid-col ms-sm12 ms-lg4' >
@@ -118,7 +118,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
               <div className='ms-Grid-col ms-sm12 ms-lg6' >
                 <div className='ms-Grid-row  bce-design-system-row heading'>
                 <div className='ms-Grid-col ms-sm12  ms-md12 ms-lg3' >
-                  <span className="bce-design-system-subsectionTitle2">Samples</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Samples</span>
                   </div>
                   <div className='ms-Grid-col ms-sm12 ms-md12  ms-lg9' >
                   <span> Underline with label, grey background</span>
@@ -207,7 +207,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
               </div>
               <div className='ms-Grid-col ms-sm12 ms-lg6 title' >
                 <div className='ms-Grid-row  bce-design-system-row heading'>
-                  <span className="bce-design-system-subsectionTitle2">State matrix</span>
+                  <span className="bce-design-system-subsectionTitleMedium">State matrix</span>
                 </div>
                 <div className='ms-Grid-row  bce-design-system-row'>
                   <div className='ms-Grid-col ms-sm12 ms-lg4' >

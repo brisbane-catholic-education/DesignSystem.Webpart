@@ -11,7 +11,7 @@ export default class DesignPatternsLinks extends React.Component<IDesignPatterns
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Links Lead users to a different page or further information. It is the lightest weight
+            <p className="bce-design-system-p-l">Links lead users to a different page or further information. It is the lightest weight
 clickable control, and is often used to reduce the visual complexity of a design. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLinks" target="_blank" title="BCE Github - Button">
               BCE Github - Links  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
@@ -26,10 +26,10 @@ clickable control, and is often used to reduce the visual complexity of a design
             <p><Link href="/"><span className={styles.visited}>This</span></Link> is a visited link.</p>
             <p>This is a text link that goes to an <Link href="http://google.com">external website</Link></p>
             <div className="background-dark-navy">
-              <p className="white"><Link href="/">This</Link> is a text link on a dark background.</p>
+              <p className="white"><Link className="blue" href="/">This</Link> is a text link on a dark background.</p>
               <p className="white"><Link href="/"><span className={styles.visited}>This</span></Link> is a visited link on a dark backrgound.</p>
             </div>
-            <br />
+            <br />            <br />
             <span className="bce-design-system-sectionTitle bce-design-system-border-bottom">State Matrix</span>
             <div className='ms-Grid'>
               <div className='ms-Grid-row '>
@@ -37,7 +37,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Rest</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10' >
-                  <Link className='' href="/">Link to document</Link>
+                  <Link className='blue' href="/">Link to document</Link>
                 </div>
               </div><br />
               <div className='ms-Grid-row '>
@@ -53,7 +53,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Focus</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10 focus' >
-                  <Link href="/">Link to document</Link>
+                  <Link className='blue' href="/">Link to document</Link>
                 </div>
               </div><br />
               <div className='ms-Grid-row '>
@@ -61,7 +61,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Pressed</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10 pressed' >
-                  <Link href="/">Link to document</Link>
+                  <Link href="/">Button</Link>
                 </div>
               </div><br />
               <div className='ms-Grid-row '>
@@ -69,7 +69,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Disabled</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10' >
-                  <Link className='' disabled href="/">Link to document</Link>
+                  <Link className='' disabled href="/">Button</Link>
                 </div>
               </div>
             </div><br />

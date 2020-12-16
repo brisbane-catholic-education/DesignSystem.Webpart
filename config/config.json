@@ -273,6 +273,22 @@
           "manifest": "./src/webparts/designPatternsMessageBar/DesignPatternsMessageBarWebPart.manifest.json"
         }
       ]
+    },
+    "design-patterns-accordion-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsAccordion/DesignPatternsAccordionWebPart.js",
+          "manifest": "./src/webparts/designPatternsAccordion/DesignPatternsAccordionWebPart.manifest.json"
+        }
+      ]
+    },
+    "design-patterns-date-picker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/designPatternsDatePicker/DesignPatternsDatePickerWebPart.js",
+          "manifest": "./src/webparts/designPatternsDatePicker/DesignPatternsDatePickerWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -310,6 +326,8 @@
     "DesignPatternsTopNavWebPartStrings": "lib/webparts/designPatternsTopNav/loc/{locale}.js",
     "DesignPatternsLeftNavWebPartStrings": "lib/webparts/designPatternsLeftNav/loc/{locale}.js",
     "DesignPatternsSearchBoxWebPartStrings": "lib/webparts/designPatternsSearchBox/loc/{locale}.js",
-    "DesignPatternsMessageBarWebPartStrings": "lib/webparts/designPatternsMessageBar/loc/{locale}.js"
+    "DesignPatternsMessageBarWebPartStrings": "lib/webparts/designPatternsMessageBar/loc/{locale}.js",
+    "DesignPatternsAccordionWebPartStrings": "lib/webparts/designPatternsAccordion/loc/{locale}.js",
+    "DesignPatternsDatePickerWebPartStrings": "lib/webparts/designPatternsDatePicker/loc/{locale}.js"
   }
 }

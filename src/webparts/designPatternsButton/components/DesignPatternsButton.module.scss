@@ -1,5 +1,5 @@
 @import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
-$bce-design-system-color-darkBlue: #054166;
+$bce-design-system-color-darkBlue: #1072AE;
 $bce-design-system-color-lightBlue: #0078d4;
 .designPatternsButton {
   .defaultButton{
@@ -101,7 +101,7 @@ $bce-design-system-color-lightBlue: #0078d4;
     }
     [class*="ms-Button--primary"]{
       color: white!important;
-      background: #054166!important;
+      background: #1072AE!important;
       [class*="ms-Button-label"]{
           font-weight: 600;
           color: white!important;

@@ -2,7 +2,7 @@
 .gettingStartedOverview{
   display: inherit;
   [class*="ms-Grid-col"]{
-    > div{
+   [class="bce-design-system-box-sm"]{
       button{
         margin-top: 26px;
         padding: 0;
@@ -29,7 +29,7 @@
 [class="bce-design-system-sectionTitle"]{
   font-size: 24px;
   font-weight: 600;
-  color: #054166!important;
+  color: #1072AE!important;
   padding-bottom: 20px;
   width: 100%;
 }

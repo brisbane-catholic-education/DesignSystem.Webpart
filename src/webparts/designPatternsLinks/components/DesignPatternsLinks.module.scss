@@ -5,13 +5,18 @@
     color: #8857a4;
   }
 
+  a[class*='blue'] {
+    &:visited{
+      color: #0979BE!important;
+    }
+  }
   [class='background-dark-navy'] {
     padding: 15px;
   }
 
   [class*="hover"] {
     a {
-      color: #054166 !important;
+      color: #1072AE !important;
     }
 
   }
@@ -25,13 +30,13 @@
 
   [class*="pressed"] {
     a {
-      color: #054166 !important;
+      color: #1072AE !important;
     }
 
   }
 
   [class*='is-disabled'] {
-    color: #979797 !important;
+    color: #D0D0D0 !important;
   }
 
   ul {

@@ -18,12 +18,12 @@ export default class DesignPatternsPivot extends React.Component<IDesignPatterns
           <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPivot" target="_blank" title="BCE Github - Button">
             BCE GitHub - Pivot  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/pivot" target="_blank" title="BCE Github - Button">
-            UI Fabric - Pivot  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            Fluent UI - Pivot  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Default Pivot</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Default Pivot</span>
             <Pivot className="bce-design-system-pviot">
               <PivotItem headerText="Pivot 1" >
                 <Label>Result for Pivot 1</Label>
@@ -36,7 +36,7 @@ export default class DesignPatternsPivot extends React.Component<IDesignPatterns
               </PivotItem>
             </Pivot>
             <br /> <br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Count and icon</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Count and icon</span>
             <Pivot className="bce-design-system-pviot">
               <PivotItem headerText="Places" itemCount={20} itemIcon="MapPin">
                 <Label>Result for Pivot 1</Label>
@@ -49,7 +49,7 @@ export default class DesignPatternsPivot extends React.Component<IDesignPatterns
               </PivotItem>
             </Pivot>
             <br /> <br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Links of tab style</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Links of tab style</span>
             <Pivot className={styles.tab + " bce-design-system-pviot"} linkFormat={PivotLinkFormat.tabs}>
               <PivotItem headerText="Apple" >
                 <Label>Result for Pivot 1</Label>

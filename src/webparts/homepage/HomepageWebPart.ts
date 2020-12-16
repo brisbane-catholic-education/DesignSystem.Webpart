@@ -16,24 +16,31 @@ export interface IHomepageWebPartProps {
 }
 
 export default class HomepageWebPart extends BaseClientSideWebPart<IHomepageWebPartProps> {
-
   public render(): void {
-    const element: React.ReactElement<IHomepageProps > = React.createElement(
+    const element: React.ReactElement<IHomepageProps> = React.createElement(
       Homepage,
       {
         description: this.properties.description
       }
     );
-
+    let host = window.location.host.toLocaleLowerCase();
+    let topBanner: HTMLElement = document.getElementById('SuiteNavPlaceHolder') as HTMLElement;
+    let head: HTMLHeadElement = document.head || document.getElementsByTagName('head')[0];
+    if (topBanner && topBanner !== null) {
+      if (host.indexOf('ciintdesign') > -1 || host.indexOf('uatintdesign') > -1 || host.indexOf('intdesign') > -1) {
+        //authorising site
+        head.insertAdjacentHTML("beforeend", `<style>div[class^='homepage__cover_'] {min-height: calc(100vh - 50px);}</style>`);
+      } else {
+        //public site
+        topBanner.style.display = "none";
+        head.insertAdjacentHTML("beforeend", `<style>div[class^='homepage__cover_'] {min-height: calc(100vh);}</style>`);
+      }
+    }
     ReactDom.render(element, this.domElement);
   }
 
   protected onDispose(): void {
     ReactDom.unmountComponentAtNode(this.domElement);
-  }
-
-  protected get dataVersion(): Version {
-    return Version.parse('1.0');
   }
 
   protected getPropertyPaneConfiguration(): IPropertyPaneConfiguration {

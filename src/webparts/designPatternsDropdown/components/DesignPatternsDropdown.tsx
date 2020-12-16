@@ -31,7 +31,7 @@ export default class DesignPatternsDropdown extends React.Component<IDesignPatte
           <DefaultButton className="bce-design-system-buttom"  href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDropdown" target="_blank" title="BCE Github - Dropdown">
             BCE Github - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom"  href="https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown" target="_blank" title="BCE Github - Button">
-            UI Fabric - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            Fluent UI - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
         </div>
 
@@ -42,26 +42,26 @@ export default class DesignPatternsDropdown extends React.Component<IDesignPatte
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-lg7' >
-                  <p className="bce-design-system-subsectionTitle2">Basic example standard</p>
+                  <p className="bce-design-system-subsectionTitleMedium">Basic example standard</p>
                   <Dropdown options={this.options} defaultSelectedKey='Optiona' />
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-lg5' >
-                  <p className="bce-design-system-subsectionTitle2">Basic example underline</p>
+                  <p className="bce-design-system-subsectionTitleMedium">Basic example underline</p>
                   <Dropdown options={this.options} className="bce-design-system-dropdown-underline" defaultSelectedKey='Optiona' />
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
-                <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">State matix</span>
+                <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">State matix</span>
               </div >
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm3 ms-lg2' >
-                  <span className='bce-design-system-subsectionTitle2'>State</span>
+                  <span className='bce-design-system-subsectionTitleMedium'>State</span>
                 </div>
                 <div className='ms-Grid-col ms-sm4 ms-lg5' >
-                  <span className='bce-design-system-subsectionTitle2'>Standard</span>
+                  <span className='bce-design-system-subsectionTitleMedium'>Standard</span>
                 </div>
                 <div className='ms-Grid-col ms-sm4 ms-lg5' >
-                  <span className='bce-design-system-subsectionTitle2'>Underline</span>
+                  <span className='bce-design-system-subsectionTitleMedium'>Underline</span>
                 </div>
               </div>
 
@@ -142,10 +142,10 @@ export default class DesignPatternsDropdown extends React.Component<IDesignPatte
 
                 </div>
                 <div className='ms-Grid-col ms-sm4 ms-lg5' >
-                <span className='bce-design-system-subsectionTitle2'>Standard with Label</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Standard with Label</span>
                 </div>
                 <div className='ms-Grid-col ms-sm4 ms-lg5' >
-                <span className='bce-design-system-subsectionTitle2'>Underline with label</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Underline with label</span>
                 </div>
               </div>
 

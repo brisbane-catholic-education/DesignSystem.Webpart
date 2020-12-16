@@ -18,12 +18,12 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
           <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsBreadcrumb" target="_blank" title="BCE Github - Button">
             BCE Github - Breadcrumb  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/breadcrumb" target="_blank" title="BCE Github - Button">
-            UI Fabric - Breadcrumb  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            Fluent UI - Breadcrumb  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div> </div>
 
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2">Small</span>
+            <span className="bce-design-system-subsectionTitleMedium">Small</span>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm12 ms-lg12 ms-xl12 ma-xxl5' >
                   <Breadcrumb className="bce-design-system-breadcrum-small"
@@ -38,7 +38,7 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
                 </div>
               </div>
             <br />
-            <span className="bce-design-system-subsectionTitle2">Large</span>
+            <span className="bce-design-system-subsectionTitleMedium">Large</span>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm12 ms-lg12 ms-xl12 ma-xxl9' >
                   <Breadcrumb className="bce-design-system-breadcrum-large"
@@ -53,7 +53,7 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
                 </div>
               </div>
             <br />
-            <span className="bce-design-system-subsectionTitle2">XX Large</span>
+            <span className="bce-design-system-subsectionTitleMedium">XX Large</span>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm12 ms-lg12 ms-xl12 ma-xxl9' >
                   <Breadcrumb className="bce-design-system-breadcrum-xxl"
@@ -68,7 +68,7 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
                 </div>
               </div>
             <br />
-            <span className="bce-design-system-subsectionTitle2">IA States</span>
+            <span className="bce-design-system-subsectionTitleMedium">IA States</span>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm12 ms-lg12 ms-xl12 ma-xxl9' >
                   <Breadcrumb className="bce-design-system-breadcrum-xxl iastates"
@@ -87,7 +87,7 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
             <br />
             <div className='ms-Grid-row bce-design-system-row'>
               <div className="overflowButton">
-                <span className="bce-design-system-subsectionTitle2">Overflow Button</span>
+                <span className="bce-design-system-subsectionTitleMedium">Overflow Button</span>
                 <div className='ms-Grid-row  bce-design-system-row'>
                   <div className='ms-Grid-col ms-sm3 ms-lg2 ms-xl1 rest' >
                     <Breadcrumb

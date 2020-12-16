@@ -27,7 +27,7 @@ export default class DesignPatternsPanel extends React.Component<IDesignPatterns
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPanel" target="_blank" title="BCE Github - Button">
               BCE Github - Panel  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/panel" target="_blank" title="BCE Github - Button">
-              UI Fabric - Pane  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Panel  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
@@ -70,22 +70,18 @@ export default class DesignPatternsPanel extends React.Component<IDesignPatterns
               />
             </Panel>
             <br /><br />
-            <span className="bce-design-system-sectionTitle  bce-design-system-border-bottom">Variant examples (16)</span>
-            <PrimaryButton secondaryText="Opens the Sample Panel"
-              href="https://developer.microsoft.com/en-us/fabric#/controls/web/panel" target="_blank" text="UI Fabric - Panel">
-              <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></PrimaryButton>
-            <br /><br />
-            <span className="bce-design-system-subsectionTitle2">In situ sample</span>
+
+            <span className="bce-design-system-subsectionTitleMedium">Calendar example</span>
             <br />
-            <img src="https://devportal.development.dev/sites/team/PublishingImages/panel.png" alt="Panel" width="100%" />
+            <img src={require('../../../assets/CaelndarExample.png')} width="250px" height="100%" alt="Calendar" />
           </div>
         </div>
 
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p>use for self-contained experiences where the user does not need to interact with the app view tocomplete the task. </p>
-            <p>use for complex creation, edit or management experiences </p>
+            <p>Use for self-contained experiences where the user does not need to interact with the app view tocomplete the task. </p>
+            <p>Use for complex creation, edit or management experiences </p>
             <p>Consider how the panel and its contained contents will scale across Fabric's responsive web breakpoints. </p>
             <p>Make sure to have a minimum width of 340px for the Panel component </p>
           </div>

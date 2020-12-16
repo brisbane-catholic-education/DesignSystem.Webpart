@@ -16,7 +16,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCommandBar" target="_blank" title="BCE Github - Button">
               BCE GitHub - CommandBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/commandbar" target="_blank" title="BCE Github - Button">
-              UI Fabric - CommandBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - CommandBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
               <CommandBar items={this.getItems()} overflowItems={this.getOverlflowItems()} farItems={this.getFarItems()} />
             </div>
             <br /><br />
-            <span className="bce-design-system-subsectionTitle">Default CommandBar</span>
+            <span className="bce-design-system-subsectionTitle">Navbar CommandBar</span>
             <div className={styles.defaultCommandBar}>
               <div><IconButton className={styles.leftButton} iconProps={{ iconName: 'GlobalNavButton' }} title='GlobalNavButton'></IconButton>
                 <SearchBox underlined={true} placeholder="Search" className={styles.searchBox} /></div>

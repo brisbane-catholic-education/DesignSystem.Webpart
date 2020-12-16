@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "fa9537e8-6eb5-447b-a76f-4df6dab63eeb",
+  "alias": "DesignPatternsAccordionWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Design Patterns Accordions" },
+    "description": { "default": "DesignPatternsAccordion description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Design Patterns Accordions"
+    }
+  }]
+}

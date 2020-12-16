@@ -18,15 +18,15 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
           <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsMessageBar" target="_blank" title="BCE Github - Button">
             BCE Github - MessageBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/messagebar" target="_blank" title="BCE Github - Button">
-            UI Fabric - MessageBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            Fluent UI - MessageBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
       </div>
       <div className="ms-Grid-row bce-design-system-row">
         <div className="bce-design-system-box">
-          <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Basic variants</span>
+          <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic variants</span>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
-                <span className="bce-design-system-subsectionTitle2 ">Default</span>
+                <span className="bce-design-system-subsectionTitleMedium ">Default</span>
                 <MessageBar messageBarType={MessageBarType.error} isMultiline={false}>
                   Error Using lots of files in this library?<br />
                   Sync the entire library.
@@ -35,7 +35,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
-                <span className="bce-design-system-subsectionTitle2 ">Dismissable Variant</span>
+                <span className="bce-design-system-subsectionTitleMedium ">Dismissable Variant</span>
                 <MessageBar onDismiss={log('test')} dismissButtonAriaLabel="Close">
                   Using lots of files in this library?
                   </MessageBar>
@@ -43,7 +43,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
-                <span className="bce-design-system-subsectionTitle2 ">Truncated</span>
+                <span className="bce-design-system-subsectionTitleMedium ">Truncated</span>
                 <MessageBar overflowButtonAriaLabel="See more" isMultiline={false} truncated={true} onDismiss={log('test')} dismissButtonAriaLabel="Close">
                   <span>Error Using lots of files in this library?  Blocked lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus, purus a lobortis tristique, odio augue pharetra
         metus, ac placerat nunc mi nec dui. Vestibulum aliquam et nunc semper scelerisque. </span>
@@ -51,7 +51,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
               </div>
             </div>
           <br />
-          <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Status example</span>
+          <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Status example</span>
 
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm3 ms-lg2' >
@@ -68,7 +68,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
                 <span>Warning</span>
               </div>
               <div className='ms-Grid-col ms-sm5 ms-lg6' >
-                <MessageBar messageBarType={MessageBarType.warning}>
+                <MessageBar messageBarType={MessageBarType.severeWarning}>
                   Using lots of files in this library?
                   </MessageBar>
               </div>

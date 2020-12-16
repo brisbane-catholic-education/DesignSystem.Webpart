@@ -12,10 +12,10 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           <p className="bce-design-system-p-l">We use a flexible grid with percentage-based columns, fixed margins
             and gutters. The columns are used to adjust the layout, making the
               best use of the space available. </p>
-          <DefaultButton className="bce-design-system-buttom" href="" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/82c28595-a016-45a3-88c3-ff35f498430b/a/ryaYWq" target="_blank" title="BCE Github - Button">
             Download the asset (Sketch File)  <IconButton iconProps={{ iconName: 'Download' }} title='Download'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/layout" target="_blank" title="BCE Github - Button">
-            UI Fabric - Layout  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
+            Fluent UI - Layout  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
         </div>
       </div>
     );
@@ -84,7 +84,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
       <div className="ms-Grid-row bce-design-system-row">
         <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Responsive Grid</h3>
         <div className="ms-Grid-col ms-xxl6">
-          <p>UI Fabric comes with a mobile-first. 12-column, responsive grid that you can
+          <p>Fluent UI comes with a mobile-first. 12-column, responsive grid that you can
           use to create flexible layouts for a variety of screen sizes and device types </p>
         </div>
         <div className={styles.layoutGrid + " ms-Grid-col ms-sm12"} aria-label="Example fabric grid where every row has a different number of columns.">
@@ -142,7 +142,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
       </div>
 
       <div className="bce-design-system-box">
-        <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Top Navigation</span>
+        <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Top Navigation</span>
         <div className='ms-Grid-row  bce-design-system-row'>
           <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg8' >
             <p>Top navigation (also called. horizontal navigation') is the default navigational
@@ -169,7 +169,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
         </div>
         <br /><br />
 
-        <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Left Navigation</span>
+        <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Left Navigation</span>
         <div className='ms-Grid-row  bce-design-system-row'>
           <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg8' >
             <p>Left navigation (also called •vertical navigation'). works well for stand-alone
@@ -241,7 +241,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
         </div>
 
         <div className="bce-design-system-box ms-Grid-row">
-          <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">8px baseline grid</span>
+          <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">8px baseline grid</span>
           <div className="ms-Grid-col ms-xxl9">
             <img src={require('../../../assets/8pxbasedline.png')} alt="test" />
           </div>
@@ -259,7 +259,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           <div className="ms-Grid-row">
             <div className="ms-Grid-col ms-xxl6">
               <p>Defining navigational systems on small devices is a challenge when it comes to
-              responive design. Having clearly defined user experience and content
+              responsive design. Having clearly defined user experience and content
             strategies will assist in selecting an appropriate layout and navigational model.</p>
               <p>Design for the smallest sizes and lowest capabilities first Then optimise for
               different screen sizes. Don't make assumptions about the devices that are

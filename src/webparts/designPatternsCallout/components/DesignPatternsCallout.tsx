@@ -22,7 +22,7 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
           <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCallout" target="_blank" title="BCE Github - Button">
             BCE GitHub - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/callout" target="_blank" title="BCE Github - Button">
-            UI Fabric - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            Fluent UI - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
 
         <div className="ms-Grid-row bce-design-system-row">
@@ -34,10 +34,6 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
             <span className="bce-design-system-subsectionTitle bce-design-system-border-bottom">Example variants</span>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle">Callout</span>
-                  <PrimaryButton id="bce-design-system-calloutButton1" onClick={() => this._onShowMenuClicked(1)} text={this.state.isCalloutVisible[1] ? 'Hide callout' : 'Show callout'} />
-                  {this._createCallout(DirectionalHint.bottomLeftEdge, "bce-design-system-callout-default", 1)}
-                  <br /><br />
                   <span className="bce-design-system-subsectionTitle">Callout w/ Close</span>
                   <PrimaryButton id="bce-design-system-calloutButton2" onClick={() => this._onShowMenuClicked(2)} text={this.state.isCalloutVisible[2] ? 'Hide callout' : 'Show callout'} />
                   {this._createCallout(DirectionalHint.bottomLeftEdge, "bce-design-system-callout-default", 2)}

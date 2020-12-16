@@ -25,24 +25,24 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
           </div>
 
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2  bce-design-system-border-bottom">Aligment</span>
+            <span className="bce-design-system-subsectionTitleMedium  bce-design-system-border-bottom">Aligment</span>
             <div className={styles.borderLeft}>
               <span className="bce-design-system-p-strong-black">Heading 5</span><br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed do eiusmod tempor incididunt</span><br/>
+              <span>ut labore et dolore magna aliqua. Ut enim ad minim veniam. quis nostrud exercitation</span><br/>
+              <span>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </span><br/>
             </div>
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2  bce-design-system-border-bottom">Line length</span>
-            <span className="bce-design-system-p-strong-black">Heading 5 </span>
-            <p>Lorem ipsum dolor sit amet. consectetur adipisicing elit sed do eiusmod tempor incididunt </p>
-            <p> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-            <p className={styles.borderBottom}> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
-            <p>The most useful way to measure line length is by averaging characters per
-              une Aim for an average line length of 45-90 characters, including spaces,
-              and evaluate for mobile and desktop experiences. </p>
+            <span className="bce-design-system-subsectionTitleMedium  bce-design-system-border-bottom">Line length</span>
+            <span className="bce-design-system-p-strong-black">Heading 5 </span><br />
+            <span>Lorem ipsum dolor sit amet. consectetur adipisicing elit sed do eiusmod tempor incididunt </span><br/>
+            <span>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </span><br/>
+            <span className={styles.borderBottom}>ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </span><br/><br/><br/>
+            <span>The most useful way to measure line length is by averaging characters per</span><br/>
+            <span>line. Aim for an average line length of 45-90 characters, including spaces,</span><br/>
+            <span>and evaluate for mobile and desktop experiences. </span><br/>
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2  bce-design-system-border-bottom">Spacing</span>
+            <span className="bce-design-system-subsectionTitleMedium  bce-design-system-border-bottom">Spacing</span>
             <span className="bce-design-system-pageHeading">Page heading</span>
             <p className="bce-design-system-p-l">Lead paragraph dolor sit amet consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -56,7 +56,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
             <p>paragraph lorem ipsum dolor sit at-net. consectetur adipisicing elit, sed do
             eiusmod tempor ncididunt ut Labore et dolore magna aliqua ut enim ad minim
             veniam. quis </p>
-            <span className="bce-design-system-subsectionTitle2">Subsection of the page</span>
+            <span className="bce-design-system-subsectionTitleMedium">Subsection of the page</span>
             <p>paragraph lorem ipsum dolor sit at-net. consectetur adipisicing elit, sed do
             eiusmod tempor ncididunt ut Labore et dolore magna aliqua ut enim ad minim
             veniam. quis </p>
@@ -70,16 +70,16 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
           <div className="bce-design-system-box">
             <div className={styles.right}>
               <p className="m-plus">See more</p>
-              <a href="">Design patterns - Links</a>
+              <a href="/SitePages/Links.aspx">Design patterns - Links</a>
             </div>
             <div className={styles.left}>
-              <p><a>This</a> is a text link on a light background</p>
-              <p><a className={styles.visited}>This</a> is a visited link.</p>
+              <p><a href='#'>This</a> is a text link on a light background</p>
+              <p><a href='#' className={styles.visited}>This</a> is a visited link.</p>
               <p>This is a link that goes to an <a>external website</a></p>
               <br />
               <div className={styles.darkBackground}>
-                <p><a>This</a> is a text link on a dark background</p>
-                <p><a className={styles.visited}>This</a> is a visited link on a dark background</p>
+                <p><a href='#'>This</a> is a text link on a dark background</p>
+                <p><a href='#' className={styles.visited}>This</a> is a visited link on a dark background</p>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
             <div className='ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2  bce-design-system-border-bottom">Unordered list item</span>
+                  <span className="bce-design-system-subsectionTitleMedium  bce-design-system-border-bottom">Unordered list item</span>
                   <ul>
                     <li>Unordered list item</li>
                     <li>Unordered list item</li>
@@ -107,7 +107,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
                   </ul>
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2  bce-design-system-border-bottom">Ordered list item</span>
+                  <span className="bce-design-system-subsectionTitleMedium  bce-design-system-border-bottom">Ordered list item</span>
                   <ol>
                     <li>Unordered list item</li>
                     <li>Unordered list item</li>
@@ -125,14 +125,14 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
           <div className="ms-Grid-row">
             <div className="ms-Grid-col ms-xxl9">
               <p>The blockquote element is used to indicate the quotation of a large section of text. This is generally taken
-                from another source. B ockquotes are preceded by a single paragraph break, left margin indented by 32px
-          on desktop. Text emphasis such as bold. italic and colour are optional </p>
+                from another source. Blockquotes are preceded by a single paragraph break, left margin indented by 32px
+          on desktop. Text emphasis such as bold, italic and colour are optional </p>
             </div>
           </div>
           <div className="bce-design-system-box">
             <div className="ms-Grid-row">
               <div className="ms-Grid-col ms-xxl9">
-                <p className="bce-design-system-subsectionTitle2">Subsection of the page</p>
+                <p className="bce-design-system-subsectionTitleMedium">Subsection of the page</p>
                 <p>Paragraph lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam. quis. </p>
@@ -151,7 +151,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
 
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Tables</h3>
-          <p>Tables show ttabular data in columns and rows</p>
+          <p>Tables show tabular data in columns and rows</p>
           <div className={styles.table + " bce-design-system-box"}>
             <span className="mi dark-navy bce-design-system-border-bottom">BORDERED TABLE</span>
             <table className="bce-design-system-table">

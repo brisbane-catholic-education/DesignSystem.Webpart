@@ -29,12 +29,12 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLeftNav" target="_blank" title="BCE Github - Button">
               BCE Github - Left Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/nav" target="_blank" title="BCE Github - Button">
-              UI Fabric - Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Basic Nav bar sample</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic Nav bar sample</span>
             <Nav
               groups={[
                 {
@@ -86,19 +86,19 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
             />
 
             <br />     <br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Insitu example of a besopke BCE application</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Insitu example of a besopke BCE application</span>
             <img src={require('../../../assets/leftNav.png')} alt="test" /><br /><br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">In situ example of a besopke BCE Application (MSFT Classic SharePoint template)</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">In situ example of a besopke BCE Application (MSFT Classic SharePoint template)</span>
             <img src={require('../../../assets/leftNav2.png')} alt="test" />
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-          <p>use left-hand navigation for apps with many top-level navigation items that are of similar type. </p>
-          <p>Keep the names of the nav'gation items brief and clear, rather than trying to be overly specific. </p>
+          <p>Use left-hand navigation for apps with many top-level navigation items that are of similar type. </p>
+          <p>Keep the names of the navigation items brief and clear, rather than trying to be overly specific. </p>
           use left-hand navigation for an app with a medium to h'gh number of top level views or categories. If your
-          <p>app is very simple, you may prefer a simpler hub-and-spoke layout </p>
+          <p>App is very simple, you may prefer a simpler hub-and-spoke layout </p>
           <p>Left-hand navigation works at best with strict organisational schemes, such as an A-Z people directory.
           and where diversity in content models is limited</p>
         </div >

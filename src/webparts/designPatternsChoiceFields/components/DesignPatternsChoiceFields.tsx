@@ -19,10 +19,10 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
             unchecked. </p><br />
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsChoiceFields" target="_blank" title="BCE Github - Choice Field">
               BCE Github - Choice Field  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/checkbox" target="_blank" title="More at UI Fabric - Button">
-              UI Fabric - Checkbox <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="hhttps://developer.microsoft.com/en-us/fabric#/controls/web/choicegroup" target="_blank" title="More at UI Fabric - Button">
-            UI Fabric  - ChoiceGroup <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/checkbox" target="_blank" title="More at Fluent UI - Button">
+              Fluent UI - Checkbox <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/choicegroup" target="_blank" title="More at Fluent UI - Button">
+            Fluent UI  - ChoiceGroup <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className={styles.checkboxSection + " ms-Grid-row bce-design-system-row"}>
@@ -38,7 +38,7 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
             <div className="ms-Grid-row bce-design-system-row">
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className='bce-design-system-subsectionTitle2'>Default Checkbox</span>
+                  <span className='bce-design-system-subsectionTitleMedium'>Default Checkbox</span>
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
@@ -48,15 +48,15 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">State matrix</span>
+                  <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">State matrix</span>
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm7 ms-md6 ms-lg3' >
-                  <span className="bce-design-system-subsectionTitle2">State</span>
+                  <span className="bce-design-system-subsectionTitleMedium">State</span>
                 </div>
                 <div className='ms-Grid-col ms-sm5 ms-md6 ms-lg4' >
-                  <span className="bce-design-system-subsectionTitle2">Standard</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Standard</span>
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
@@ -132,7 +132,7 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
             <div className="ms-Grid-row bce-design-system-row">
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className='bce-design-system-subsectionTitle2'>Default ChoiceGroup</span>
+                  <span className='bce-design-system-subsectionTitleMedium'>Default ChoiceGroup</span>
                   <br /><br />
                   <ChoiceGroup
                     className="defaultChoiceGroup"
@@ -162,15 +162,15 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">State matrix</span>
+                  <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">State matrix</span>
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm7 ms-md6 ms-lg3' >
-                  <span className="bce-design-system-subsectionTitle2">State</span>
+                  <span className="bce-design-system-subsectionTitleMedium">State</span>
                 </div>
                 <div className='ms-Grid-col ms-sm5 ms-md6 ms-lg4' >
-                  <span className="bce-design-system-subsectionTitle2">Standard</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Standard</span>
                 </div>
               </div>
               <div className='ms-Grid-row bce-design-system-row'>

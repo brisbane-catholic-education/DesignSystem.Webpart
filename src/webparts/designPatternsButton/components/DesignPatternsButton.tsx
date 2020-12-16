@@ -17,8 +17,8 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
               a task. They are typically found inside forms, dialogs, panels or pages. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsButton" target="_blank" title="Sketch file">
               BCE Github - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/button" target="_blank" title="More at UI Fabric - Button">
-              UI Fabric - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/button" target="_blank" title="More at Fluent UI - Button">
+              Fluent UI - Button <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         
@@ -33,10 +33,10 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <div className="bce-design-system-box">
             <div className='ms-Grid-row'>
               <div className='ms-Grid-col ms-sm6 ms-md6 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>Standard Grey</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Standard Grey</span>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-md6 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>Primary - Link Blue</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Primary - Link Blue</span>
               </div>
             </div>
             <br />
@@ -50,23 +50,23 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
             </div>
 
             <div className='ms-Grid-row bce-design-system-row'>
-              <p className='bce-design-system-subsectionTitle2 bce-design-system-border-bottom'>State matrix</p>
+              <p className='bce-design-system-subsectionTitleMedium bce-design-system-border-bottom'>State matrix</p>
             </div>
 
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm4 ms-md4 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>State</span>
+                <span className='bce-design-system-subsectionTitleMedium'>State</span>
               </div>
               <div className='ms-Grid-col ms-sm4 ms-md4 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>Standard Grey</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Standard Grey</span>
               </div>
               <div className='ms-Grid-col ms-sm4 ms-md4 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>Primary - Link Blue</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Primary - Link Blue</span>
               </div>
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm4 ms-md4 ms-lg3' >
-                <span>Reset</span>
+                <span>Rest</span>
               </div>
               <div className='ms-Grid-col ms-sm4 ms-md4 ms-lg3' >
                 <DefaultButton data-automation-id="test" disabled={false} checked={false} text="Rest" />
@@ -130,15 +130,15 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <div className="bce-design-system-box">
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6 ma-xl5' >
-                <span className="bce-design-system-subsectionTitle2">Standard Grey</span><br /><br />
+                <span className="bce-design-system-subsectionTitleMedium">Standard Grey</span><br /><br />
                 <CompoundButton primary={false} secondaryText="Secondary description of action" disabled={false} checked={false}>
-                  Create account
+                  Button
                       </CompoundButton>
               </div>
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg6 ms-xl5' >
-                <span className="bce-design-system-subsectionTitle2">Primary - Link Blue</span><br /><br />
+                <span className="bce-design-system-subsectionTitleMedium">Primary - Link Blue</span><br /><br />
                 <CompoundButton primary={true} secondaryText="Secondary description of action." disabled={false} checked={false}>
-                  Create account
+                  Button
                       </CompoundButton>
               </div>
             </div>
@@ -155,7 +155,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className="bce-design-system-subsectionTitle2">CommandBar Sample</span><br /><br />
+                  <span className="bce-design-system-subsectionTitleMedium">CommandBar Sample</span><br /><br />
                   <div className="left">
                     <SearchBox
                       placeholder="Search"
@@ -193,7 +193,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <div className='bce-design-system-box'>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                <span className='bce-design-system-subsectionTitle2'>Padding and placement</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Padding and placement</span>
                 <p>Include a minimum padding of 8px between icon and label. and 8px between buttons. </p>
                 <br />
                 {/* <DefaultButton  text="Create account" iconProps={{ iconName: 'Add' }}></DefaultButton>
@@ -210,9 +210,9 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
               <img src={require('../../../assets/buttonpadding2.png')} alt="test" />
             </div>
             <div className='ms-Grid-row bce-design-system-row' >
-              <span className='bce-design-system-subsectionTitle2'>Icon and label conventions</span>
+              <span className='bce-design-system-subsectionTitleMedium'>Icon and label conventions</span>
               <div className='ms-Grid-col ms-xxl9' >
-                <p>Icons are to be placed left of the action label unless used to signify affordance. as demonstrated in Dropdown buttons. <br />
+                <p>Icons are to be placed left of the action label unless used to signify affordance. as demonstrated in <a href="/SitePages/Dropdown.aspx">Dropdown buttons</a>. <br />
                   Icons should appear next to their respective labels. and be sized in harmony with typography. <br />
                   Users become accustomed to recognising an icon as meaning something. altering the action behind that icon is <br />
                   extremely confusing. </p>
@@ -220,12 +220,12 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
             </div>
             <div className='ms-Grid-row bce-design-system-row' >
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg3' >
-                <span className='bce-design-system-subsectionTitle2'>Do</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Do</span>
                 <p>Icon match action label</p>
                 <DefaultButton text="Share" iconProps={{ iconName: 'Share' }}></DefaultButton>
               </div>
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg5' >
-                <span className='bce-design-system-subsectionTitle2'>Don't</span>
+                <span className='bce-design-system-subsectionTitleMedium'>Don't</span>
                 <p>Icon does not match action label</p>
                 <DefaultButton text="Follow" iconProps={{ iconName: 'Share' }}></DefaultButton>
               </div>

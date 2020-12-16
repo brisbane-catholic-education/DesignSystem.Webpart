@@ -19,7 +19,7 @@ export default class GettingStartedOverview extends React.Component<IGettingStar
                 <div className="bce-design-system-box-sm">
                   <h3>Developers</h3>
                   <IconButton iconProps={{ iconName: 'FileCode' }} title='CalendarSettings'></IconButton></div>
-                <p>Get started with Our code base one Of two ways:
+                <p>Get started with our code base one of two ways:
                   downloading the code from- (code sharing to be discussed). </p>
                 <ul>
                   <li>Review the Design System Guidelines</li>
@@ -34,7 +34,7 @@ export default class GettingStartedOverview extends React.Component<IGettingStar
                   we've got you covered with the design resources you need. </p>
                 <ul>
                   <li> Review the Design System Guidelines </li>
-                  <li>Get started with our <a href="https://developer.microsoft.com/en-us/fabric">design toolkit</a> within <a href="">resources</a>. </li>
+                  <li>Get started with our design toolkit within <a href="/SitePages/Resources-for-design-and-development.aspx">resources</a>. </li>
                 </ul>
               </div>
             </div>

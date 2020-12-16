@@ -16,7 +16,8 @@
   [class*="hover"] {
     [class*="bce-design-system-dropdown-underline"] {
       [class*="ms-Dropdown-title"] {
-        border-bottom: 1px solid #212121;
+        border:none!important;
+        border-bottom: 1px solid #212121!important;
         padding-left: 12px;
       }
     }

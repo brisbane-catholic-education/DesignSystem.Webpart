@@ -13,12 +13,11 @@ export default class DesignPatternsTopNav extends React.Component<IDesignPattern
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Navs (also called "left nav" or "navigation pane") provide links to the main areas
-       of an app or a site. In larger configurations, the Nav is always on-screen, usually
-       on the left of the view. In smaller configurations, the Nav may collapse into a
-skinnier version or be completely hidden until the user taps an icon. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsTopNav" target="_blank" title="BCE Github - Button">
-              BCE Github - Top Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <p className="bce-design-system-p-l">Top navigation (also called, 'horizontal navigation') is the default navigational 
+                  design pattern for responsive websites and intranets. In smaller configurations, 
+                  the Nav may collapse and either the overflow button or the menu icon will 
+                  display. On tapping either of these, the menu will display either as a drop down 
+                  in the case of the overflow, or as a drawer in the case of the menu icon. </p>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
@@ -32,7 +31,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Primary navigation bar sample</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Primary navigation bar sample</span>
             <CommandBar  items={[
                 {
                   key: 'item1',
@@ -52,19 +51,19 @@ skinnier version or be completely hidden until the user taps an icon. </p>
                 }
               ]} />
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">In situ example of a bespoke BCE application</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">In situ example of a bespoke BCE application</span>
             <img src={require('../../../assets/topNav2.png')} alt="test" />
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p>use top nav'gation for apps or sites with many top level navigation items that are of a different type and
+            <p>Use top navigation for apps or sites with many top level navigation items that are of a different type and
 priority. </p>
-            <p>Keep the names of the nav'gation items brief and clear, rather than trying to be overly specific. </p>
-            <p>use top nav'gation for an app with a high number of top level views or categories. Larger sites and apps
+            <p>Keep the names of the navigation items brief and clear, rather than trying to be overly specific. </p>
+            <p>Use top navigation for an app with a high number of top level views or categories. Larger sites and apps
 may benefit from a persistent top navigation bar across all content. </p>
-            <p>Top nav'gation works best when content is hierarchical or contains items with higher priority than others. </p>
+            <p>Top navigation works best when content is hierarchical or contains items with higher priority than others. </p>
             <p>Avoid site-wide navigation in the content area as this is reserved for content specific interaction design
 patterns. such as wizards. galleries, and dashboards. </p>
           </div >

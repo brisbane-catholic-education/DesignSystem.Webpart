@@ -6,23 +6,25 @@ import { Icon } from 'office-ui-fabric-react/lib/Icon';
 
 export default class Homepage extends React.Component < IHomepageProps, {} > {
   public render(): React.ReactElement<IHomepageProps> {
+
+    function _navigateToGettingStarted(): void {
+      window.open("/SitePages/Overview.aspx", "_self");
+    }
+
     return(
       <div className = { styles.homepage } >
         <div className = { styles.homepage__cover } >
           <div className = { styles.homepage__coverContent } >
-            <h1>Our <strong>Design System</strong></h1>
+            <h1>BCE <strong>Design System</strong></h1>
             <p>Our design system helps us work together to build great digital experience that drive learning outcomes for our aspiring community</p>
-            <p><DefaultButton href="./Overview.aspx" text="Getting started" /></p>
             <hr/>
-            <p><img src="https://via.placeholder.com/282x124" alt="image" width="141" height="62" className = { styles.homepage__coverLogo }/></p>
-            <div className = { styles.homepage } >
-              <IconButton iconProps={{iconName: 'PencilReply'}} title='Designer'></IconButton>
-            </div>
+            <p><img src={require('../../../assets/Bris_Cath_Ed_logo_horiz.png')} alt="Brisbane Catholic Education Logo" width="141" height="62" className = { styles.homepage__coverLogo }/></p>
           </div>
           <a href="#homepage__body" className = { styles.goDown }><Icon iconName='ChevronDown' /></a>
         </div>
         <div id="homepage__body">
           <div className={styles.bodyContent}>
+            <br/>
             <p>These design guidelines and pattern library have been designed to
             inspire your creativity and allow you to use the components of our
             design system, whatever digtial product or service you are producing.
@@ -39,13 +41,10 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
           <div className='ms-Grid'>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div>
-                  Placeholder graphic element
-                </div>
-                <div>
+                <div><a href="/SitePages/Overview.aspx">
                   <span className='bce-design-system-sectionTitle'>
                     Getting started
-                  </span>
+                  </span></a>
                 </div>
                   <p>The Brisbane Catholic Education Design System
                     provides design guidelines and code to help you
@@ -53,55 +52,50 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
                     with our products and services.  </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div>
-                  Placeholder graphic element
-                </div>
-                <div>
+                <div><a href="/SitePages/Layout.aspx">
                   <span className='bce-design-system-sectionTitle'>
-                    Brand
-                  </span>
-                </div>
-                  <p>Our brand strategy defines and informs who we are
-                  as Brisbane Catholic Education and communicates
-                  what we stand for. how we act. look and speak. </p>
-              </div>
-              <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div>
-                  Placeholder graphic element
-                </div>
-                <div>
-                  <span className='bce-design-system-sectionTitle'>
-                    Foundations
-                  </span>
+                     Foundations
+                  </span></a>
                 </div>
                   <p>These areas of design are the foundations on
                   which the Brisbane Catholic Education online is
                   built </p>
               </div>
+              <div className='ms-Grid-col ms-sm6 ms-lg4' >
+                <div><a href="/SitePages/Brand.aspx">
+                  <span className='bce-design-system-sectionTitle'>
+                   Grid
+                  </span></a>
+                </div>
+                  <p>All the different sizes of screens and their layouts. You can copy a template from here to add to 
+                    your project page to help you get your project started.  </p>
+              </div>
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
-              <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div>
-                  Placeholder graphic element
-                </div>
-                <div>
+            <div className='ms-Grid-col ms-sm6 ms-lg4' >
+                <div><a href="/SitePages/Button.aspx">
                   <span className='bce-design-system-sectionTitle'>
-                    Design Patterns
-                  </span>
+                   Master Navigation
+                  </span></a>
                 </div>
-                  <p>Patterns are a simple. reusable solution to a design
-                  problem. They help jumpstart your pro ect
-                  focusing on solving user problems rather than
-                  reinventing interface elements already established </p>
+                  <p>Two navigation styles are available. These pages g've a detailed guide on how to 
+                  use the Master Navigation and their behaviours at dfferent breakpoints.  </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div>
-                  Placeholder graphic element
+                <div><a href="/SitePages/Button.aspx">
+                  <span className='bce-design-system-sectionTitle'>
+                   Patterns and Components
+                  </span></a>
                 </div>
-                <div>
+                  <p>Please use these patterns and components to ensure consistent 
+                    conventions across all BCE digital applications. Each page has a detailed overview on how to use these 
+                    correctly </p>
+              </div>
+              <div className='ms-Grid-col ms-sm6 ms-lg4' >
+                <div><a href="/SitePages/Resources-for-design-and-development.aspx">
                   <span className='bce-design-system-sectionTitle'>
                     Resources
-                  </span>
+                  </span></a>
                 </div>
                   <p>The Brisbane Catholic Education Design System
                   includes assets and resources to help designers

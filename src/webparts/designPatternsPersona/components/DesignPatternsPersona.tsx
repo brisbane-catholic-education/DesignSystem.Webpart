@@ -37,7 +37,7 @@ used within the PeoplePicker components.</p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPersona" target="_blank" title="BCE Github - Persona">
               BCE Github - Persona  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/persona" target="_blank" title="BCE Github - Persona">
-              UI Fabric - Persona  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Persona  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
@@ -46,12 +46,12 @@ used within the PeoplePicker components.</p>
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm2 ms-lg2' >
-                  <span className="bce-design-system-subsectionTitle2">Initials</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Initials</span>
                 </div>
                 <div className='ms-Grid-col ms-sm5 ms-lg5' >
                 </div>
                 <div className='ms-Grid-col ms-sm5 ms-lg5' >
-                  <span className="bce-design-system-subsectionTitle2">Image</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Image</span>
                 </div>
               </div>
 

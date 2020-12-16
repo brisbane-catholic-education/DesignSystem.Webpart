@@ -21,7 +21,7 @@ export default class DesignPatternsDialog extends React.Component<IDesignPattern
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDialog" target="_blank" title="BCE Github - Button">
               BCE Github - Dialog  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/dialog" target="_blank" title="BCE Github - Button">
-              UI Fabric - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Button  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ export default class DesignPatternsDialog extends React.Component<IDesignPattern
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p>use Dialog for quick, actionable interactions, such as making a choice or needing the user to provide
+            <p>Use Dialog for quick, actionable interactions, such as making a choice or needing the user to provide
 information. </p>
             <p>When possble, try a non-blocking Dialog before resorting to a blocking Dialog. </p>
             <p>Only include information needed to help users make a decision. </p>

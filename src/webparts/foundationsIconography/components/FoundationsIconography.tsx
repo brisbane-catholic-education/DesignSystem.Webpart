@@ -10,15 +10,15 @@ export default class FoundationsIconography extends React.Component<IFoundations
       <div className={styles.foundationsIconography + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Microsoft UI Fabric icons are used for iconography. This creates a consistent
+            <p className="bce-design-system-p-l">Microsoft Fluent UI icons are used for iconography. This creates a consistent
        look across all of our digital platforms, assisting our users to readily understand
 our user interface elements. It means they don't have to continually learn anew. </p>
             <br />    <br />
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/icons" target="_blank" title="BCE Github - Button">
-              UI Fabric - Icons, implementation and asset <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Icons, implementation and asset <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <br /><br />
           </div>
-          <span className="bce-design-system-subsectionTitle">UI Fabric - Icon sample</span>
+          <span className="bce-design-system-subsectionTitle">Fluent UI - Icon sample</span>
           <br /> <br />
           <div className={styles.sample}>
             <div className='ms-Grid'>
@@ -76,20 +76,20 @@ our user interface elements. It means they don't have to continually learn anew.
               using icons as intended will help to make them more understandable over time. </p>
           </div>
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Sizing</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Sizing</span>
             <div className="ms-Grid-col ms-xxl9"> 
-            <p>Icons are predomitely in use at 16px, but they can also be sized in relation to the typography uidelines. <br/>
+            <p>Icons are predomitely in use at 16px, but they can also be sized in relation to the typography underlines. <br/>
             Icons should appear next to their respect've labels, and be sized in harmony with typography. </p>
             </div>
             <div className='ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2">Inline</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Inline</span>
                   <p>Label 16px, Icon 18px</p>
                   <p><a href="">Download school photograph (3.1mb)<IconButton iconProps={{ iconName: 'Download' }} title='Download'></IconButton> </a></p>
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2">Button 40px</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Button 40px</span>
                   <p>Icons 16px, Label 14px</p>
                   <DefaultButton
                     iconProps={{ iconName: 'Settings' }}
@@ -113,7 +113,7 @@ our user interface elements. It means they don't have to continually learn anew.
                 </div>
               </div>
               <div className={styles.scale + ' ms-Grid-row  bce-design-system-row'}>
-                <span className="bce-design-system-subsectionTitle2">Typographic scale sample</span>
+                <span className="bce-design-system-subsectionTitleMedium">Typographic scale sample</span>
                 <div className='ms-Grid-col ms-sm12 ms-lg6' >
                   <img src={require('../../../assets/icongraphy.png')} alt="test" />
                 </div>
@@ -125,9 +125,9 @@ our user interface elements. It means they don't have to continually learn anew.
               </div>
 
               <div className='ms-Grid-row  bce-design-system-row'>
-                <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Spacing and positioning</span>
+                <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Spacing and positioning</span>
                 <div className="ms-Grid-col ms-xxl9"> 
-                <p>A ways allocate the right amount of space around an icon to allow for Legibility and touch.
+                <p>Always allocate the right amount of space around an icon to allow for Legibility and touch.
                   Wherever possible, size your spacing in multiples of 4 or 8 pixels. </p>
                   </div>
                 <br />
@@ -139,7 +139,7 @@ our user interface elements. It means they don't have to continually learn anew.
 
 
               <div className='ms-Grid-row  bce-design-system-row'>
-                <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Support conventions</span>
+                <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Support conventions</span>
                 <div className="ms-Grid-col ms-xxl9"> 
                 <p>Users grow accustomed to recognising an icon as meaning something. Altering the action
                   behind that icon is extremely confusing. </p>
@@ -147,13 +147,13 @@ our user interface elements. It means they don't have to continually learn anew.
                 <br />
                 <div className={styles.howToUse + ' ms-Grid-col ms-sm12 '}>
                       <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg4' >
-                        <span className="bce-design-system-subsectionTitle2">Do</span>
+                        <span className="bce-design-system-subsectionTitleMedium">Do</span>
                         <p>Icon matches action label</p>
                         <p><IconButton iconProps={{ iconName: 'Share' }} title='Share'></IconButton> Share</p>
                       </div>
                       <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg4' >
-                        <span className="bce-design-system-subsectionTitle2">Don't</span>
-                        <p>Icon does not matche action label</p>
+                        <span className="bce-design-system-subsectionTitleMedium">Don't</span>
+                        <p>Icon does not match action label</p>
                         <p><IconButton iconProps={{ iconName: 'Share' }} title='Share'></IconButton> Follow</p>
                       </div>
                     </div>
@@ -163,17 +163,17 @@ our user interface elements. It means they don't have to continually learn anew.
         </div>
 
         <div className="ms-Grid-row bce-design-system-row">
-          <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">UI Fabric Icon Font</h3>
+          <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Fluent UI Icon Font</h3>
           <div className="ms-Grid">
             <div className="ms-Grid-row">
               <div className="ms-Grid-col ms-xxl9">
-                <p>Microsoft UI Fabric icons are provided as a custom font. which contahs glyphs that you can
+                <p>Microsoft Fluent UI icons are provided as a custom font. which contains glyphs that you can
                   scale, color. and style to meet the needs of your website or applications. You can also
                   download and install the icon font to use it with various design apps like Sketch, Figma, or
                   Adobe </p>
                 <div className="bce-design-system-box-sm">
-                  <p>Microsoft UI Fabric icons and implementation <br/>
-                  <a href="https://developermicrosoftcom/en-us/fabric#/styles/icons#implementation">https://developermicrosoftcom/en-us/fabric#/styles/icons#implementation</a></p>
+                  <p>Microsoft Fluent UI icons and implementation <br/>
+                  <a href="https://developer.microsoft.com/en-us/fluentui#/styles/web/icons">https://developer.microsoft.com/en-us/fluentui#/styles/web/icons</a></p>
                 </div>
               </div>
             </div>

@@ -15,20 +15,20 @@ export default class DesignPatternsOverflowSet extends React.Component<IDesignPa
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Navs (also called "left nav" or "navigation pane") provide links to the main areas
-       of an app or a site. In larger configurations, the Nav is always on-screen, usually
-       on the left of the view. In smaller configurations, the Nav may collapse into a
-skinnier version or be completely hidden until the user taps an icon. </p>
+            <p className="bce-design-system-p-l">The OverflowSet is a flexible container component that is useful for displaying a 
+              primary set of content with additional content in an overflow callout. Note that 
+              the example below is only an example of how to render the component, not a 
+              specific use case. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsOverflowSet" target="_blank" title="BCE Github - Button">
               BCE Github - OverflowSet  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/overflowset" target="_blank" title="BCE Github - Button">
-              UI Fabric - OverflowSet  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - OverflowSet  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
 
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Basic example</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic example</span>
             <OverflowSet className={styles.basicExample}
               items={[
                 {
@@ -57,7 +57,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
               onRenderOverflowButton={this._onRenderOverflowButton}
               onRenderItem={this._onRenderItem}
             /><br /><br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Vertical example</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Vertical example</span>
             <OverflowSet
               vertical
               items={[
@@ -87,7 +87,7 @@ skinnier version or be completely hidden until the user taps an icon. </p>
               onRenderItem={this._onRenderIconItem}
             />
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2 bce-design-system-border-bottom">Custom example</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Custom example</span>
             <SearchBox placeholder="Search" className={styles.searchBox} />
             <OverflowSet className={styles.customExample}
               items={[

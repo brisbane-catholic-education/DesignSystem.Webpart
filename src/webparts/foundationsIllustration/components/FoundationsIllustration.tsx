@@ -23,7 +23,7 @@ single colour from our colour palette to each icon.</p>
           <div className='ms-Grid'>
             <div className='ms-Grid-row  bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg6' >
-                <span className="bce-design-system-subsectionTitle2">Do</span>
+                <span className="bce-design-system-subsectionTitleMedium">Do</span>
                 <ul>
                   <li>Do use solid fill strokes and outlines to define objects </li>
                   <li>Do use rounded corners </li>
@@ -31,12 +31,12 @@ single colour from our colour palette to each icon.</p>
                 </ul>
               </div>
               <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg6' >
-                <span className="bce-design-system-subsectionTitle2">Don't</span>
+                <span className="bce-design-system-subsectionTitleMedium">Don't</span>
                 <ul>
                   <li> Don't overcomplicate with unnecessary details </li>
                   <li>Don't allow illustrations to be confused as UI icons </li>
-                  <li>Don't use UI Fabric icons as illustrations </li>
-                  <li>Don't usejust to create drama, it has to have purpose </li>
+                  <li>Don't use Fluent UI icons as illustrations </li>
+                  <li>Don't use just to create drama, it has to have purpose </li>
                 </ul>
               </div>
             </div>
@@ -53,7 +53,7 @@ single colour from our colour palette to each icon.</p>
               <li>Empty states (when a page has no results. or when something goes wrong) </li>
               <li>On-boarding (introducing a new feature. or explaining how to use your product) </li>
               <li>Announcements </li>
-              <li>Proqress indicators </li>
+              <li>Progress indicators </li>
             </ul>
           </div>
         </div>

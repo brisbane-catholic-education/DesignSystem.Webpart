@@ -16,25 +16,25 @@ export default class DesignPatternsSearchBox extends React.Component<IDesignPatt
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsSearchBox" target="_blank" title="BCE Github - Button">
               BCE GitHub - SearchBox  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/searchbox" target="_blank" title="BCE Github - Button">
-              UI Fabric - SearchBox  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
+              Fluent UI - SearchBox  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitle2">Default SearchBox</span>
+            <span className="bce-design-system-subsectionTitleMedium">Default SearchBox</span>
             <SearchBox placeholder="Search" />
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2">Underlined SearchBox</span>
+            <span className="bce-design-system-subsectionTitleMedium">Underlined SearchBox</span>
             <SearchBox placeholder="Search" underlined={true} />
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2">SearchBox with custom icon</span>
+            <span className="bce-design-system-subsectionTitleMedium">SearchBox with custom icon</span>
             <SearchBox placeholder="Filter" />
             <br /><br />
-            <span className="bce-design-system-subsectionTitle2">State matrix</span>
+            <span className="bce-design-system-subsectionTitleMedium">State matrix</span>
             <div className='ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2">SearchBox</span>
+                  <span className="bce-design-system-subsectionTitleMedium">SearchBox</span>
                   <div className='ms-Grid-row'>
                     <div className='ms-Grid-col ms-sm6 ms-lg5' >
                       <span>Rest</span>
@@ -70,7 +70,7 @@ export default class DesignPatternsSearchBox extends React.Component<IDesignPatt
 
                 </div>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg6' >
-                  <span className="bce-design-system-subsectionTitle2">SearchBox Inline (Command Bar)</span>
+                  <span className="bce-design-system-subsectionTitleMedium">SearchBox Inline (Command Bar)</span>
                   <div className='ms-Grid-row'>
                     <div className='ms-Grid-col ms-sm6 ms-lg5' >
                       <span>Rest</span>
