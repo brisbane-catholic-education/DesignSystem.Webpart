@@ -78,7 +78,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
                    Master Navigation
                   </span></a>
                 </div>
-                  <p>Two navigation styles are available. These pages g've a detailed guide on how to 
+                  <p>Two navigation styles are available. These pages give a detailed guide on how to 
                   use the Master Navigation and their behaviours at dfferent breakpoints.  </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >

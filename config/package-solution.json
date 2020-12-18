@@ -3,7 +3,7 @@
   "solution": {
     "name": "BCE Design System Webparts",
     "id": "be72c62b-6760-4f3c-a6ea-2b6855c0c5e5",
-    "version": "1.2.0.0",
+    "version": "1.2.0.3",
     "includeClientSideAssets": true
   },
   "paths": {

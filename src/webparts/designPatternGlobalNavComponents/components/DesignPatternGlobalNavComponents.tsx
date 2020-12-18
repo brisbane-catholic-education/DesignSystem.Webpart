@@ -13,11 +13,10 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Top navigation (also called, 'horizontal navigation') is the default navigational 
-              design pattern for responsive websites and intranets. In smaller configurations, 
-              the Nav may collapse and either the overflow button or the menu icon will 
-              display. On tapping either of these, the menu will display either as a drop down 
-              in the case of the overflow, or as a drawer in the case of the menu icon. </p>
+            <p className="bce-design-system-p-l">BCE Global Nav Component allows signed in users to navigate and search 
+              across the whole of Brisbane Catholic Education. <br/>
+              The component is positioned top-right of an application shell, and must feature 
+              on all authenticated experiences.  </p>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">

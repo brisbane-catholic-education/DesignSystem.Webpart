@@ -15,7 +15,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/82c28595-a016-45a3-88c3-ff35f498430b/a/ryaYWq" target="_blank" title="BCE Github - Button">
             Download the asset (Sketch File)  <IconButton iconProps={{ iconName: 'Download' }} title='Download'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/layout" target="_blank" title="BCE Github - Button">
-            Fluent UI - Layout  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
+            Fluent UI - Grid  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
         </div>
       </div>
     );

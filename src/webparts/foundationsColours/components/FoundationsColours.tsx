@@ -13,6 +13,7 @@ export default class FoundationsColours extends React.Component<
         {this.introduction()}
         {this.primaryColourPalette()}
         {this.systemColourPalette()}
+        {this.colorHeirarchy()}
         {this.textAccessibility()}
       </div>
     );
@@ -251,6 +252,29 @@ export default class FoundationsColours extends React.Component<
     );
   }
 
+  private colorHeirarchy(): React.ReactElement<IFoundationsColoursProps> {
+    return (
+      <div className="ms-Grid-row bce-design-system-row">
+        <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Colour heirarchy guide</h3>
+        <div className='colorHeirarchy bce-design-system-border'>
+          <div className="background-white">
+            <span>White space 50%</span>
+          </div>
+          <div className="background-dark-navy"></div>
+          <div className="background-black"></div>
+          <div className="background-white"></div>
+          <div className="background-light-blue"></div>
+          <div className="background-purple"></div>
+          <div className="background-orange"></div>
+          <div className="background-red"></div>
+          <div className="background-rose"></div>
+          <div className='background-green'></div>
+          <div className="background-gold"></div>
+        </div>
+      </div>
+    );
+  }
+
   private textAccessibility(): React.ReactElement<IFoundationsColoursProps> {
     return (
       <div className="ms-Grid-row bce-design-system-row">
@@ -268,11 +292,11 @@ export default class FoundationsColours extends React.Component<
           <p className="">
             The options below offer color palette combinations that fall within
             the range of Section 508 compliant foreground/background color
-            contrast ratios. If you choose to customize beyond the palette, the
+            contrast ratios. If you choose to customize beyond the palette, the 
             <a href="https://webaim.org/resources/contrastchecker">
-              WebAIM color contrast tool
+               WebAIM color contrast tool 
             </a>
-            is a useful resource for testing the compliance of any color
+             is a useful resource for testing the compliance of any color
             combination.
           </p>
         </div>

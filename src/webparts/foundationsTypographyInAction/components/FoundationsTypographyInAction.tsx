@@ -70,7 +70,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
           <div className="bce-design-system-box">
             <div className={styles.right}>
               <p className="m-plus">See more</p>
-              <a href="/SitePages/Links.aspx">Design patterns - Links</a>
+              <a href="/SitePages/Links.aspx">Patterns and components - Links</a>
             </div>
             <div className={styles.left}>
               <p><a href='#'>This</a> is a text link on a light background</p>

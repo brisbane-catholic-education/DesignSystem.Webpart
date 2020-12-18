@@ -15,8 +15,8 @@ export default class DesignPatternsLinks extends React.Component<IDesignPatterns
 clickable control, and is often used to reduce the visual complexity of a design. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLinks" target="_blank" title="BCE Github - Button">
               BCE Github - Links  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/label" target="_blank" title="BCE Github - Button">
-              More at UI Fabirc - Link  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/link" target="_blank" title="BCE Github - Button">
+              More at Fluent UI - Link  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">

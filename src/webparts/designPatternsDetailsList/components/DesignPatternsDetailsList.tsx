@@ -384,7 +384,7 @@ export default class DesignPatternsDetailsList extends React.Component<
             target="_blank"
             title="BCE Github - Details List"
           >
-            BCE Github - Button
+            BCE Github - Details List
             <IconButton
               iconProps={{ iconName: "NavigateExternalInline" }}
               title="NavigateExternalInline"
@@ -396,7 +396,7 @@ export default class DesignPatternsDetailsList extends React.Component<
             target="_blank"
             title="BCE Github - Details List"
           >
-            BCE Github - Button
+            BCE Github - Details List
             <IconButton
               iconProps={{ iconName: "NavigateExternalInline" }}
               title="NavigateExternalInline"

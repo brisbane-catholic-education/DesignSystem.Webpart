@@ -187,7 +187,6 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <div className='ms-Grid-col ms-xxl9' >
             <p>Icons must first and foremost communicate meaning in a graphical user interface. <br />
               Text labels are necessary to communicate the meaning and reduce ambiguity, with exceptions for small mobile screens and established universal icons (such as a search magnifying glass). </p>
-            <p><Link disabled={false} href="https://developer.microsoft.com/en-us/fabric#/styles/web/icons"> Read more in Foundations -Icons </Link></p>
           </div>
           <br />
           <div className='bce-design-system-box'>
@@ -214,8 +213,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
               <div className='ms-Grid-col ms-xxl9' >
                 <p>Icons are to be placed left of the action label unless used to signify affordance. as demonstrated in <a href="/SitePages/Dropdown.aspx">Dropdown buttons</a>. <br />
                   Icons should appear next to their respective labels. and be sized in harmony with typography. <br />
-                  Users become accustomed to recognising an icon as meaning something. altering the action behind that icon is <br />
-                  extremely confusing. </p>
+                  Users become accustomed to recognising an icon as meaning something. altering the action behind that icon is extremely confusing. </p>
               </div>
             </div>
             <div className='ms-Grid-row bce-design-system-row' >

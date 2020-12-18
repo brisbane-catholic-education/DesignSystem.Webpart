@@ -25,7 +25,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
             <div className="ms-Grid-col ms-xxl9">
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'TriggerUser' }} title='TriggerUser'></IconButton>
+                  <img src={require('../../../assets/01_bce_empowered.svg')} alt="Empowered" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Empowered</span>
@@ -37,7 +37,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
               </div>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'CheckboxComposite' }} title='CheckboxComposite'></IconButton>
+                <img src={require('../../../assets/02_bce_human-centered.svg')} alt="Human-Centred" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Human-centred</span>
@@ -48,7 +48,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
               </div>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'PieSingle' }} title='PieSingle'></IconButton>
+                  <img src={require('../../../assets/03_bce_recognisable.svg')} alt="03_bce_recognisable" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Recognisable</span>
@@ -59,7 +59,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
               </div>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'Communications' }} title='Communications'></IconButton>
+                 <img src={require('../../../assets/04_bce_universal.svg')} alt="04_bce_universal" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Universal</span>
@@ -70,7 +70,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
               </div>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'SingleColumnEdit' }} title='SingleColumnEdit'></IconButton>
+                <img src={require('../../../assets/05_bce_simplified.svg')} alt="05_bce_simplified" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Simplified</span>
@@ -81,7 +81,7 @@ export default class GettingStartedDesignPrinciples extends React.Component<IGet
               </div>
               <div className='ms-Grid-row '>
                 <div className='ms-Grid-col ms-sm2 ms-lg1' >
-                  <IconButton iconProps={{ iconName: 'SIPMove' }} title='SIPMove'></IconButton>
+                <img src={require('../../../assets/06_bce_structured.svg')} alt="06_bce_structured" />
                 </div>
                 <div className='ms-Grid-col ms-sm10 ms-lg11' >
                   <span className="xxl Bold dark-navy">Structured</span>
