@@ -291,7 +291,7 @@ export default class FoundationsColours extends React.Component<
           </p>
           <p className="">
             The options below offer colour palette combinations that fall within
-            the range of Section 508 compliant foreground/background color
+            the range of Section 508 compliant foreground/background colour
             contrast ratios. If you choose to customize beyond the palette, the <a href="https://webaim.org/resources/contrastchecker"> WebAIM colour contrast tool 
             </a> is a useful resource for testing the compliance of any colour combination.
           </p>

@@ -127,7 +127,7 @@ used within the PeoplePicker components.</p>
 
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm2 ms-lg2' >
-                  <span className="m">14px</span>
+                  <span className="m">16px</span>
                 </div>
                 <div className='ms-Grid-col ms-sm5 ms-lg5' >
                   <Persona className="bce-design-system-Persona--showSecondaryText" {...this.personaWithInitials} initialsColor={PersonaInitialsColor.darkBlue} presence={PersonaPresence.online} size={PersonaSize.size16} />

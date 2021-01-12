@@ -27,9 +27,9 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
               on the left of the view. In smaller configurations, the Nav may collapse into a
               skinnier version or be completely hidden until the user taps an icon. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLeftNav" target="_blank" title="BCE Github - Button">
-              BCE Github - Left Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              BCE Github - Left Navigation  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/nav" target="_blank" title="BCE Github - Button">
-              Fluent UI - Nav  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
+              Fluent UI - Navigation  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">

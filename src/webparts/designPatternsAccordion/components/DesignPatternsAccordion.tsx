@@ -54,7 +54,7 @@ export default class DesignPatternsAccordion extends React.Component<IDesignPatt
             For consideration
           </h3>
           <p>Seek to optimise page content to avoid the need for accordians. </p>
-          <p>Limit to two levels of nav'gation. </p>
+          <p>Limit to two levels of navigation. </p>
           <p>Use when you have less than 10 main sections. </p>
         </div>
       </div >

@@ -79,7 +79,7 @@ our user interface elements. It means they don't have to continually learn anew.
             <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Sizing</span>
             <div className="ms-Grid-col ms-xxl9"> 
             <p>Icons are predominately in use at 16px, but they can also be sized in relation to the typography underlines. <br/>
-            Icons should appear next to their respect've labels, and be sized in harmony with typography. </p>
+            Icons should appear next to their respective labels, and be sized in harmony with typography. </p>
             </div>
             <div className='ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
@@ -168,7 +168,7 @@ our user interface elements. It means they don't have to continually learn anew.
             <div className="ms-Grid-row">
               <div className="ms-Grid-col ms-xxl9">
                 <p>Microsoft Fluent UI icons are provided as a custom font. which contains glyphs that you can
-                  scale, color. and style to meet the needs of your website or applications. You can also
+                  scale, colour. and style to meet the needs of your website or applications. You can also
                   download and install the icon font to use it with various design apps like Sketch, Figma, or
                   Adobe </p>
                 <div className="bce-design-system-box-sm">

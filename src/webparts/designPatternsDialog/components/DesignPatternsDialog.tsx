@@ -41,7 +41,7 @@ information. </p>
             <p>When possble, try a non-blocking Dialog before resorting to a blocking Dialog. </p>
             <p>Only include information needed to help users make a decision. </p>
             <p>Button text should reflect the actions available to the user (eg save. delete). </p>
-            <p>Validate that the user's entries are acceptable before closing the D'alog. Show an inline validation error
+            <p>Validate that the user's entries are acceptable before closing the Dialog. Show an inline validation error
 near the field they must correct. </p>
           </div>
         </div>

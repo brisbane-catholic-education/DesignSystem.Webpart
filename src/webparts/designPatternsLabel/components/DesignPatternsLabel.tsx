@@ -16,7 +16,7 @@ export default class DesignPatternsLabel extends React.Component<IDesignPatterns
         <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">Labels give a name or title to a component or group of components. Labels
-         should be in close proximity to the component rr group they are paired with.
+         should be in close proximity to the component or group they are paired with.
          Some components, such as TextField, Dropdown, or Toggle, already have
          Labels incorporated. but other components may optionally add a Label if it
        helps inform the user of the component's purpose. </p>

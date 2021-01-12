@@ -56,7 +56,7 @@ export default class DesignPatternsSearchBox extends React.Component<IDesignPatt
                       <span>Select/Focus</span>
                     </div>
                     <div className='ms-Grid-col ms-sm6 ms-lg7 focus'  >
-                      <SearchBox placeholder="Search" />
+                      <SearchBox placeholder="Search" value="Search" />
                     </div>
                   </div>
                   <div className='ms-Grid-row'>
@@ -92,7 +92,7 @@ export default class DesignPatternsSearchBox extends React.Component<IDesignPatt
                       <span>Select/Focus</span>
                     </div>
                     <div className='ms-Grid-col ms-sm6 ms-lg7 focus' >
-                      <SearchBox underlined={true} placeholder="Search" />
+                      <SearchBox underlined={true} placeholder="Search" value="Search"/>
                     </div>
                   </div>
                   <div className='ms-Grid-row'>

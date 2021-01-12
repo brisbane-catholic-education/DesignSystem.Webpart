@@ -23,8 +23,8 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
           </div>
         </div>
         <div className={styles.textField + " ms-Grid-row bce-design-system-row"}>
-          <h3 className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Variants</h3>
-          <span className="bce-design-system-subsectionTitle">Default TextField with Label</span>
+          <h3 className="bce-design-system-subsectionTitle bce-design-system-border-bottom">Variants</h3>
+          <span className="bce-design-system-subsectionTitleMedium">Default TextField with Label</span>
           <p>The default text field is most common y used to accept data input on a form. </p>
           <div className="bce-design-system-box">
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
@@ -110,7 +110,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
         </div>
 
         <div className={styles.underline + " ms-Grid-row bce-design-system-row"}>
-          <span className="bce-design-system-sectionTitle">Underlined TextField</span>
+          <span className="bce-design-system-subsectionTitleMedium">Underlined TextField</span>
           <p>The underlined TextField is typically used to capture a single line of text, but can be configured to capture
           multiple lines of text. </p>
           <div className="bce-design-system-box">

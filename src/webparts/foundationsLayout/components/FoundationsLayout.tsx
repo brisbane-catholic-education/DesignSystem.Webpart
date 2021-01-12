@@ -60,7 +60,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
             <th><span className="m Bold dark-navy">Extra large</span></th>
             <th><span className="m Normal">1024px - 1365px</span></th>
             <th><span className="m Normal">32</span></th>
-            <th><span className="m Normal">32</span></th>
+            <th><span className="m Normal">24</span></th>
           </tr>
           <tr>
             <th><span className="m Bold dark-navy">Exta extra large</span></th>
