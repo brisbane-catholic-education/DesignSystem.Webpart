@@ -36,9 +36,9 @@ export default class DesignPatternsLabel extends React.Component<IDesignPatterns
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
-          <p>use sentence casing. e.g. "First name"  </p>
-          <p>Be short concise.  </p>
-          <p>When adding a Label to components. use the text as a noun or short noun phrase. </p>
+          <p>Use sentence casing. e.g. "First name"  </p>
+          <p>Be short and concise.  </p>
+          <p>When adding a Label to components, use the text as a noun or short noun phrase.</p>
         </div>
       </div >
     );

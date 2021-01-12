@@ -6,6 +6,7 @@ import { DefaultButton, IconButton } from 'office-ui-fabric-react/lib/Button';
 
 export default class DesignPatternsLinks extends React.Component<IDesignPatternsLinksProps, {}> {
   public render(): React.ReactElement<IDesignPatternsLinksProps> {
+    const visitedLinkClass = `${styles.visited} bce-design-system-link-underline`;
     return (
       <div className={styles.designPatternsLinks + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
@@ -22,14 +23,14 @@ clickable control, and is often used to reduce the visual complexity of a design
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
             <span className="bce-design-system-sectionTitle bce-design-system-border-bottom">Inline links</span>
-            <p><Link href="/">This</Link> is a text link on a light background.</p>
-            <p><Link href="/"><span className={styles.visited}>This</span></Link> is a visited link.</p>
+            <p><Link className="bce-design-system-link-underline" href="/">This</Link> is a text link on a light background.</p>
+            <p><Link className="bce-design-system-link-underline" href="/"><span className={styles.visited}>This</span></Link> is a visited link.</p>
             <p>This is a text link that goes to an <Link href="http://google.com">external website</Link></p>
             <div className="background-dark-navy">
-              <p className="white"><Link className="blue" href="/">This</Link> is a text link on a dark background.</p>
-              <p className="white"><Link href="/"><span className={styles.visited}>This</span></Link> is a visited link on a dark backrgound.</p>
+              <p className="white"><Link className="blue bce-design-system-link-underline" href="/">This</Link> is a text link on a dark background.</p>
+              <p className="white"><Link href="/"><span className={visitedLinkClass}>This</span></Link> is a visited link on a dark backrgound.</p>
             </div>
-            <br />            <br />
+            <br /> <br />
             <span className="bce-design-system-sectionTitle bce-design-system-border-bottom">State Matrix</span>
             <div className='ms-Grid'>
               <div className='ms-Grid-row '>
@@ -61,7 +62,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Pressed</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10 pressed' >
-                  <Link href="/">Button</Link>
+                  <Link href="/">Link to document</Link>
                 </div>
               </div><br />
               <div className='ms-Grid-row '>
@@ -69,7 +70,7 @@ clickable control, and is often used to reduce the visual complexity of a design
                   <span>Disabled</span>
                 </div>
                 <div className='ms-Grid-col ms-sm8 ms-lg10' >
-                  <Link className='' disabled href="/">Button</Link>
+                  <Link className='' disabled href="/">Link to document</Link>
                 </div>
               </div>
             </div><br />

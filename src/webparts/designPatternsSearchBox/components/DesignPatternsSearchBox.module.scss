@@ -11,6 +11,9 @@
   [class*="focus"]{
     > [class*="ms-SearchBox"]{
       border: 1px solid #0979BE!important;
+      [class*="ms-SearchBox-iconContainer"]{
+        display: none;
+      }
     }
     > [class*="ms-SearchBox"][class*="is-underlined"]{
       border-bottom: 1px solid #0979BE!important;

@@ -15,7 +15,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">The TextFieId component enables a user to type text into an app. It's typically
             used to capture a single line of text, but can be configured to capture multiple
-          lines of text The text displays on the screen in a simple, uniform format. </p>
+          lines of text. The text displays on the screen in a simple, uniform format. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsTextField" target="_blank" title="BCE Github - TextField">
               BCE Github - TextField  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/textfield" target="_blank" title="BCE Github - TextField">
@@ -24,13 +24,13 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
         </div>
         <div className={styles.textField + " ms-Grid-row bce-design-system-row"}>
           <h3 className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Variants</h3>
-          <span className="bce-design-system-sectionTitle2">Default TextField with Label</span>
+          <span className="bce-design-system-subsectionTitle">Default TextField with Label</span>
           <p>The default text field is most common y used to accept data input on a form. </p>
           <div className="bce-design-system-box">
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-col ms-sm12 ms-lg5' >
                 <div className='ms-Grid-row  bce-design-system-row'>
-                  <span className="bce-design-system-sectionTitle2">Samples</span>
+                  <span className="bce-design-system-subsectionTitleMedium">Samples</span>
                 </div>
                 <div className='ms-Grid-row  bce-design-system-row'>
                   <TextField label="Standard" placeholder="placeholder" />
@@ -42,7 +42,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
                   <TextField label="Required text" required placeholder="placeholder" />
                 </div>
                 <div className='ms-Grid-row  bce-design-system-row'>
-                  <TextField label="With error message" errorMessage="Error message" />
+                  <TextField label="With error message" errorMessage="Error message" placeholder="Overview"/>
                 </div>
                 <div className='ms-Grid-row  bce-design-system-row'>
                   <TextField label="With placeholder" placeholder="Please enter text here" />
@@ -201,7 +201,7 @@ export default class DesignPatternsTextField extends React.Component<IDesignPatt
                     <span>Error</span>
                   </div>
                   <div className='ms-Grid-col ms-sm12 ms-lg6' >
-                    <TextField label="Resources" borderless defaultValue="" errorMessage="Error message" />
+                    <TextField label="Resources" borderless defaultValue="" errorMessage="Error message" placeholder="Enter an email, address or more"/>
                   </div>
                 </div>
               </div>

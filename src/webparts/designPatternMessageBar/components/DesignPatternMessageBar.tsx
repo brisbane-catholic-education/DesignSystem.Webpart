@@ -26,7 +26,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
           <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic variants</span>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
-                <span className="bce-design-system-subsectionTitleMedium ">Default</span>
+                <span className="bce-design-system-subsectionTitleMedium">Default</span>
                 <MessageBar messageBarType={MessageBarType.error} isMultiline={false}>
                   Error Using lots of files in this library?<br />
                   Sync the entire library.
@@ -35,7 +35,7 @@ export default class DesignPatternMessageBar extends React.Component<IDesignPatt
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
               <div className='ms-Grid-col ms-sm12 ms-lg8' >
-                <span className="bce-design-system-subsectionTitleMedium ">Dismissable Variant</span>
+                <span className="bce-design-system-subsectionTitleMedium">Dismissable Variant</span>
                 <MessageBar onDismiss={log('test')} dismissButtonAriaLabel="Close">
                   Using lots of files in this library?
                   </MessageBar>

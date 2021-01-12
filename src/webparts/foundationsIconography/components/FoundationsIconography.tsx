@@ -78,7 +78,7 @@ our user interface elements. It means they don't have to continually learn anew.
           <div className="bce-design-system-box">
             <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Sizing</span>
             <div className="ms-Grid-col ms-xxl9"> 
-            <p>Icons are predomitely in use at 16px, but they can also be sized in relation to the typography underlines. <br/>
+            <p>Icons are predominately in use at 16px, but they can also be sized in relation to the typography underlines. <br/>
             Icons should appear next to their respect've labels, and be sized in harmony with typography. </p>
             </div>
             <div className='ms-Grid'>
@@ -127,7 +127,7 @@ our user interface elements. It means they don't have to continually learn anew.
               <div className='ms-Grid-row  bce-design-system-row'>
                 <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Spacing and positioning</span>
                 <div className="ms-Grid-col ms-xxl9"> 
-                <p>Always allocate the right amount of space around an icon to allow for Legibility and touch.
+                <p>Always allocate the right amount of space around an icon to allow for legibility and touch.
                   Wherever possible, size your spacing in multiples of 4 or 8 pixels. </p>
                   </div>
                 <br />

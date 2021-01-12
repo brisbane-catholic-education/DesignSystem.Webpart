@@ -18,6 +18,7 @@ export default class DesignPatternsTopNav extends React.Component<IDesignPattern
                   the Nav may collapse and either the overflow button or the menu icon will 
                   display. On tapping either of these, the menu will display either as a drop down 
                   in the case of the overflow, or as a drawer in the case of the menu icon. </p>
+                  <p className="bce-design-system-p-l">Note: This is for a bespoke BCE application</p>
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">

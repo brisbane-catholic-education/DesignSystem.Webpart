@@ -42,7 +42,7 @@ used within the PeoplePicker components.</p>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-sectionTitle2 bce-design-system-border-bottom">Persona in various size</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Persona in various size</span>
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-row  bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm2 ms-lg2' >

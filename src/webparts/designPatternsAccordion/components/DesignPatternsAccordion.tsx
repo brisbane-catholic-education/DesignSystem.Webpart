@@ -19,7 +19,7 @@ export default class DesignPatternsAccordion extends React.Component<IDesignPatt
           </div>
         </div>
         <div className="ms-Grid-row bce-design-system-row">
-          <span className="bce-design-system-subsectionTitleMedium">Accordion with content</span>
+          <span className="bce-design-system-subsectionTitle">Accordion with content</span>
           <div className="bce-design-system-box">
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-lg8' >
@@ -33,8 +33,8 @@ export default class DesignPatternsAccordion extends React.Component<IDesignPatt
         </div>
 
         <div className="ms-Grid-row bce-design-system-row">
-          <span className="bce-design-system-subsectionTitleMedium">Accordion with navigation</span>
-          <p className="bce-design-system-p-l">Use when you want the benefits of a normal sidebar menu, but do not have 
+          <span className="bce-design-system-subsectionTitle">Accordion with navigation</span>
+          <p className="bce-design-system-p">Use when you want the benefits of a normal sidebar menu, but do not have 
               the space to list all options. Limit to two Levels of navigation.  </p>
           <div className="bce-design-system-box-sm">
               <div className='ms-Grid-row bce-design-system-row'>
@@ -55,7 +55,7 @@ export default class DesignPatternsAccordion extends React.Component<IDesignPatt
           </h3>
           <p>Seek to optimise page content to avoid the need for accordians. </p>
           <p>Limit to two levels of nav'gation. </p>
-          <p>use when you have less than 10 main sect'ons. </p>
+          <p>Use when you have less than 10 main sections. </p>
         </div>
       </div >
     );

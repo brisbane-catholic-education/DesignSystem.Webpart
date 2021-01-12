@@ -46,32 +46,32 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           </tr>
           <tr>
             <th><span className="m Bold dark-navy">Medium</span></th>
-            <th><span className="m Normal">320px - 479px</span></th>
+            <th><span className="m Normal">480px - 639px</span></th>
             <th><span className="m Normal">32</span></th>
             <th><span className="m Normal">16</span></th>
           </tr>
           <tr>
             <th><span className="m Bold dark-navy">Large</span></th>
-            <th><span className="m Normal">320px - 479px</span></th>
+            <th><span className="m Normal">640px - 1023px</span></th>
             <th><span className="m Normal">32</span></th>
             <th><span className="m Normal">24</span></th>
           </tr>
           <tr>
             <th><span className="m Bold dark-navy">Extra large</span></th>
-            <th><span className="m Normal">640px - 1023px</span></th>
-            <th><span className="m Normal">32</span></th>
-            <th><span className="m Normal">32</span></th>
-          </tr>
-          <tr>
-            <th><span className="m Bold dark-navy">Exta extra large</span></th>
             <th><span className="m Normal">1024px - 1365px</span></th>
             <th><span className="m Normal">32</span></th>
             <th><span className="m Normal">32</span></th>
           </tr>
           <tr>
+            <th><span className="m Bold dark-navy">Exta extra large</span></th>
+            <th><span className="m Normal">1366px - 1919px</span></th>
+            <th><span className="m Normal">73</span></th>
+            <th><span className="m Normal">32</span></th>
+          </tr>
+          <tr>
             <th><span className="m Bold dark-navy">Extra extra extra large</span></th>
             <th><span className="m Normal">1920px and up</span></th>
-            <th><span className="m Normal">32</span></th>
+            <th><span className="m Normal">350</span></th>
             <th><span className="m Normal">32</span></th>
           </tr>
         </table>
@@ -130,7 +130,7 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
   private layout(): React.ReactElement<IFoundationsLayoutProps> {
     return (<div className="ms-Grid-row bce-design-system-row">
       <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Layout and spacing</h3>
-      <span className="bce-design-system-subsectionTitle">Creating layout</span>
+      <span className="bce-design-system-subsectionTitle">Creating layouts</span>
       <div className="ms-Grid-col ms-xxl6">
         <p>A number of columns can be used to suit content and create interesting
         layouts at different widths. Most pages follow a common layout structure that
@@ -145,10 +145,9 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
         <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Top Navigation</span>
         <div className='ms-Grid-row  bce-design-system-row'>
           <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg8' >
-            <p>Top navigation (also called. horizontal navigation') is the default navigational
-          design pattern for responsive websites and intranets. Avoid site-wide
-          navigation in the content area as this is reserved for content specific interaction
-        design patterns. such as wizards, galleries, and dashboards </p>
+            <p>Top navigation (also called 'horizontal navigation'), is the default navigational design pattern 
+              for responsive websites and intranets. Avoid site-wide navigation in the content area as this is 
+              reserved for content specific interaction design patterns,  such as wizards, galleries and dashboards.</p>
 
             <div className={styles.topNav}>
               <div className={styles.header}>Global header where required</div>
@@ -172,10 +171,8 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
         <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Left Navigation</span>
         <div className='ms-Grid-row  bce-design-system-row'>
           <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg8' >
-            <p>Left navigation (also called •vertical navigation'). works well for stand-alone
-              task-orientated applications and websites that have end user benefit. This type
-              of navigation works best when working with a limited range of content models
-                and strict organisational schemes. such as an A-Z people directory. </p>
+            <p>Left navigation (also called 'vertical navigation'), works well for stand-alone task-orientated applications and websites that have end user benefit. 
+              This type of navigation works best when working with a limited range of content models and strict organisational schemes such as an A-Z people directory.</p>
 
             <div className={styles.topNav}>
               <div className={styles.header}>Global header where required</div>

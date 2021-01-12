@@ -47,7 +47,7 @@ single colour from our colour palette to each icon.</p>
           <div className="ms-Grid-col ms-xxl9">
             <p>Illustration is a powerful communication tool when something needs to be communicated.<br />
               Illustration becomes overwhelming and distracting when it is used as an ornament. and<br />
-              ultimately detracts frorn the overall experience of using the product </p>
+              ultimately detracts from the overall experience of using the product </p>
             <span className="bce-design-system-subsectionTitle">Common places to use illustration</span>
             <ul>
               <li>Empty states (when a page has no results. or when something goes wrong) </li>

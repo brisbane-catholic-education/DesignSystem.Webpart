@@ -155,10 +155,10 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
             <div className='ms-Grid-row bce-design-system-row ms-Grid'>
               <div className='ms-Grid-row bce-design-system-row'>
                 <div className='ms-Grid-col ms-sm12 ms-md12 ms-lg12' >
-                  <span className="bce-design-system-subsectionTitleMedium">CommandBar Sample</span><br /><br />
+                  <span className="bce-design-system-subsectionTitleMedium">CommandBar Sample</span><br /><br /><br />
                   <div className="left">
                     <SearchBox
-                      placeholder="Search"
+                      placeholder="Links"
                       onFocus={() => console.log('onFocus called')}
                       onBlur={() => console.log('onBlur called')}
                       underlined={true}
@@ -178,7 +178,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Colours</h3>
           <div className='ms-Grid-col ms-xxl9' >
             <p>Standard and primary colours are dependant on the website/application primary colour theme.<br />
-              Website/application base colours for tints and shades start with the <Link href="https://developer.microsoft.com/en-us/fabric#/styles/web/colors/products"> foundational colours. </Link> </p>
+              Website/application base colours for tints and shades start with the <Link href="/SitePages/Colors.aspx"> foundational colours. </Link> </p>
           </div>
         </div>
 
@@ -216,7 +216,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
                   Users become accustomed to recognising an icon as meaning something. altering the action behind that icon is extremely confusing. </p>
               </div>
             </div>
-            <div className='ms-Grid-row bce-design-system-row' >
+            <div className='ms-Grid-row' >
               <div className='ms-Grid-col ms-sm12 ms-md6 ms-lg3' >
                 <span className='bce-design-system-subsectionTitleMedium'>Do</span>
                 <p>Icon match action label</p>
@@ -229,7 +229,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
               </div>
             </div>
             <div className='ms-Grid-row bce-design-system-row' >
-              <p>Read more in  <Link disabled={false} href="https://developer.microsoft.com/en-us/fabric#/styles/web/icons"> Foundations -Icons </Link></p>
+              <p>Read more in  <Link disabled={false} href="/SitePages/Iconography.aspx"> Foundations - Icons </Link></p>
             </div>
           </div>
         </div>
@@ -241,7 +241,7 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
     return [
       {
         key: 'createAccount',
-        name: 'Create account',
+        name: 'Aaccount',
         iconProps: {
           iconName: 'Add'
         },
@@ -249,7 +249,15 @@ export default class DesignPatternsButton extends React.Component<IDesignPattern
       },
       {
         key: 'createAccount2',
-        name: 'Create account',
+        name: 'Item here',
+        iconProps: {
+          iconName: 'Add'
+        },
+        ariaLabel: 'Create',
+      },
+      {
+        key: 'createAccount3',
+        name: 'Item here',
         iconProps: {
           iconName: 'Add'
         },

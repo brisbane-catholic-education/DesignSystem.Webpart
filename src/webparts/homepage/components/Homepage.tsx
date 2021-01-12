@@ -52,7 +52,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
                     with our products and services.  </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div><a href="/SitePages/Layout.aspx">
+                <div><a href="/SitePages/Colors.aspx">
                   <span className='bce-design-system-sectionTitle'>
                      Foundations
                   </span></a>
@@ -62,7 +62,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
                   built </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div><a href="/SitePages/Brand.aspx">
+                <div><a href="/SitePages/Grid.aspx">
                   <span className='bce-design-system-sectionTitle'>
                    Grid
                   </span></a>
@@ -73,7 +73,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
             </div>
             <div className='ms-Grid-row bce-design-system-row'>
             <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div><a href="/SitePages/Button.aspx">
+                <div><a href="/SitePages/Top-Nav.aspx">
                   <span className='bce-design-system-sectionTitle'>
                    Master Navigation
                   </span></a>
@@ -82,7 +82,7 @@ export default class Homepage extends React.Component < IHomepageProps, {} > {
                   use the Master Navigation and their behaviours at dfferent breakpoints.  </p>
               </div>
               <div className='ms-Grid-col ms-sm6 ms-lg4' >
-                <div><a href="/SitePages/Button.aspx">
+                <div><a href="/SitePages/Accordions.aspx">
                   <span className='bce-design-system-sectionTitle'>
                    Patterns and Components
                   </span></a>

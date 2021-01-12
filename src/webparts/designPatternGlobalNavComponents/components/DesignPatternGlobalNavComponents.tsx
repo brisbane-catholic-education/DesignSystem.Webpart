@@ -13,7 +13,7 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">BCE Global Nav Component allows signed in users to navigate and search 
+            <p className="bce-design-system-p-l">BCE Global Navigation Component allows signed in users to navigate and search 
               across the whole of Brisbane Catholic Education. <br/>
               The component is positioned top-right of an application shell, and must feature 
               on all authenticated experiences.  </p>
@@ -24,14 +24,14 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
             <div className="ms-Grid-row">
               <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Anatomy</span>
               <div className="ms-Grid-col ms-xxl9">
-                <p>The BCE Global Nav consists of 3 action components. Minimum margin of 8px outside of BCE Global Component</p>
+                <p>The BCE Global Navigation consists of 3 action components. Minimum margin of 8px outside of BCE Global Component</p>
                 <img src={require('../../../assets/globalNav1.png')} alt="test" /><br />
               </div>
             </div>
             <div className="ms-Grid-row">
               <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Sizes</span>
               <div className="ms-Grid-col ms-xxl9">
-                <p>The BCE Global Nav has three sizes to support global breakpoints. and or specific product header rules (such as MSFT Sharepoint Modern UI). </p>
+                <p>The BCE Global Navigation has three sizes to support global breakpoints. and or specific product header rules (such as MSFT Sharepoint Modern UI). </p>
                 <div className='ms-Grid-row'>
                   <div className='ms-Grid-col ms-sm4 ms-lg2' >
                     <span className="bce-design-system-subsectionTitleMedium">Small</span>
@@ -67,7 +67,7 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
             <br /><br />
             <div className="ms-Grid-row">
               <div className="ms-Grid-row">
-                <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">In situ example of BCE Global Nav within a product masthead </span>
+                <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">In situ example of BCE Global Navigation within a product masthead </span>
                 <div className="ms-Grid-col ms-xxl9">
                   <p>Example application is MSFT Sharepoint Communication site, with primary top/horizontal navigation</p>
                 </div>     </div>
@@ -102,9 +102,9 @@ export default class DesignPatternGlobalNavComponents extends React.Component<ID
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p>The global search pattern must a ways sit in the top right-hand corner of the global navigation. </p>
+            <p>The global search pattern must always sit in the top right-hand corner of the global navigation. </p>
             <p>Where ideal placement of the component is limited due to platform constraints (e.g. MSFT Sharepoint
-            Global Header is not configurable), adapt to best meet user experience Play to the strength of the
+            Global Header is not configurable), adapt to best meet user experience. Play to the strength of the
             platform's interaction patterns. </p>
             <p>The pattern is used to search across the entire BCE application suite. </p>
             <p>The input field placeholder text should read 'search' when not in use. </p>

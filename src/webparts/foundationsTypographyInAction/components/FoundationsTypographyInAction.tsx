@@ -5,6 +5,7 @@ import { escape } from '@microsoft/sp-lodash-subset';
 
 export default class FoundationsTypographyInAction extends React.Component<IFoundationsTypographyInActionProps, {}> {
   public render(): React.ReactElement<IFoundationsTypographyInActionProps> {
+    const visitedLinkClass = `${styles.visited} bce-design-system-link-underline`;
     return (
       <div className={styles.foundationsTypographyInAction + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
@@ -73,13 +74,13 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
               <a href="/SitePages/Links.aspx">Patterns and components - Links</a>
             </div>
             <div className={styles.left}>
-              <p><a href='#'>This</a> is a text link on a light background</p>
-              <p><a href='#' className={styles.visited}>This</a> is a visited link.</p>
-              <p>This is a link that goes to an <a>external website</a></p>
+              <p><a className="bce-design-system-link-underline"  href='#'>This</a> is a text link on a light background</p>
+              <p><a href='#' className={visitedLinkClass}>This</a> is a visited link.</p>
+              <p>This is a link that goes to an <a className="bce-design-system-link-underline" >external website</a></p>
               <br />
               <div className={styles.darkBackground}>
-                <p><a href='#'>This</a> is a text link on a dark background</p>
-                <p><a href='#' className={styles.visited}>This</a> is a visited link on a dark background</p>
+                <p><a className="bce-design-system-link-underline" href='#'>This</a> is a text link on a dark background</p>
+                <p><a href='#' className={visitedLinkClass}>This</a> is a visited link on a dark background</p>
               </div>
             </div>
           </div>
@@ -137,7 +138,7 @@ export default class FoundationsTypographyInAction extends React.Component<IFoun
                   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam. quis. </p>
                 <blockquote className="bce-design-system-blockquote-regular">
-                  <p className="bce-design-system-p-l">Paragraph lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do
+                  <p className="Bold">Paragraph lorem ipsum dolor sit amet. consectetur adipisicing elit, sed do
                   sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. ut enim ad minim veniam, quis </p>
                 </blockquote>

@@ -27,27 +27,7 @@ export default class DesignPatternsDialog extends React.Component<IDesignPattern
 
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-sectionTitle bce-design-system-border-bottom">Default example</span>
-            <Dialog
-              hidden={this.state.hideDialog}
-              onDismiss={this._closeDialog}
-              dialogContentProps={{
-                type: DialogType.close,
-                title: 'All emails together',
-                subText: 'Your Inbox has changed. No longer does it include favorites, it is a singular destination for your emails.'
-              }}
-              modalProps={{
-                isBlocking: false
-              }}
-            >
-              <DialogFooter>
-                <PrimaryButton onClick={this._closeDialog} text="Save" />
-                <DefaultButton onClick={this._closeDialog} text="Cancel" />
-              </DialogFooter>
-            </Dialog>
-            <PrimaryButton onClick={this._showDialog} text="Open Dialog" />
-            <br /><br />
-            <span className="bce-design-system-sectionTitle bce-design-system-border-bottom">Default example</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Example</span>
             <img src={require('../../../assets/dialog.png')} alt="test" />
             <br /><br />
           </div>
@@ -56,7 +36,7 @@ export default class DesignPatternsDialog extends React.Component<IDesignPattern
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p>Use Dialog for quick, actionable interactions, such as making a choice or needing the user to provide
+            <p>Use dialog for quick, actionable interactions, such as making a choice or needing the user to provide
 information. </p>
             <p>When possble, try a non-blocking Dialog before resorting to a blocking Dialog. </p>
             <p>Only include information needed to help users make a decision. </p>

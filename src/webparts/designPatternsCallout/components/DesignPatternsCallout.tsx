@@ -18,6 +18,7 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
     return (
       <div className={styles.designPatternsCallout + ' ms-Grid'} >
         <div className="ms-Grid-row bce-design-system-row">
+        <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <p className="bce-design-system-p-l">Callouts are a powerful way to simplify a user interface. They host tips and other information users need when they need it, with minimal effort on their part. However, poorly designed Callouts can be annoying, distracting, unhelpful, overwhelming, or in the way.</p>
           <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCallout" target="_blank" title="BCE Github - Button">
             BCE GitHub - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
@@ -53,6 +54,17 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
               </div>
           </div>
         </div>
+
+        <div className="ms-Grid-row bce-design-system-row">
+          <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">For consideration</h3>
+          <div className="ms-Grid-col ms-xxl9">
+            <p>Use Callouts to introduce new concepts in an experience where highlighting specific pieces of the UI is necessary.</p>
+            <p>Do be concise with the information you provide inside of a Callout. </p>
+            <p>Do be helpful with the tip text inside of your Callout. </p>
+            <p>Callouts should be placed near the object being described, usually at the pointer's tail or head if possible.</p>
+          </div>
+        </div>
+
       </div >
     );
   }

@@ -488,7 +488,7 @@ export default class DesignPatternsDetailsList extends React.Component<
             Display columns in order of importance from left to right or right
             to left depending on the standards of the culture.
           </p>
-          <p>Give columns ample default width to display 'nformation. </p>
+          <p>Give columns ample default width to display information. </p>
         </div>
         {this._ensureStateMatrix()}
       </div>

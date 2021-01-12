@@ -39,7 +39,7 @@ export default class FoundationsColours extends React.Component<
     return (
       <div className="ms-Grid-row bce-design-system-row">
         <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">
-          Primary colour palette
+          Brand colour palette
         </h3>
         <div className="primaryColourPalette">
           <div className="ms-Grid-row">
@@ -47,7 +47,7 @@ export default class FoundationsColours extends React.Component<
               <div className="background-dark-navy bce-design-system-border"></div>
               <p className="bce-design-system-p-strong-black">Dark Navy</p>
               <span className="bce-design-system-p-strong-black">Class: </span>
-              dark-navy #1072AE
+              dark-navy #054166
             </div>
             <div className="ms-Grid-col ms-sm12 ms-md6 ms-lg3">
               <div className="background-extra-dark-navy bce-design-system-border"></div>
@@ -174,13 +174,13 @@ export default class FoundationsColours extends React.Component<
           <h4>Primary links and CTAs</h4>
           <div className="ms-Grid-row">
             <div className="ms-Grid-col ms-sm12 ms-md6 ms-lg3">
-              <div className="background-light-blue bce-design-system-border"></div>
-              <p className="bce-design-system-p-strong-black">Light Blue</p>
+              <div className="background-link-blue bce-design-system-border"></div>
+              <p className="bce-design-system-p-strong-black">Link Blue</p>
               <span className="bce-design-system-p-strong-black">Class: </span>
-              light-blue #0979BE
+              link-blue #0979BE
             </div>
             <div className="ms-Grid-col ms-sm12 ms-md6 ms-lg3">
-              <div className="background-light-blue bce-design-system-border"></div>
+              <div className="background-hover-blue bce-design-system-border"></div>
               <p className="bce-design-system-p-strong-black">Hover Blue</p>
               <span className="bce-design-system-p-strong-black">Class: </span>
               hover-blue #1072AE
@@ -218,7 +218,7 @@ export default class FoundationsColours extends React.Component<
               <div className="background-grey-4 bce-design-system-border"></div>
               <p className="bce-design-system-p-strong-black">Grey 4</p>
               <span className="bce-design-system-p-strong-black">Class: </span>
-              grey-4 #FFF7DA
+              grey-4 #A6A6A6
             </div>
             <div className="ms-Grid-col ms-sm12 ms-md6 ms-lg3">
               <div className="background-grey-5 bce-design-system-border"></div>
@@ -286,18 +286,14 @@ export default class FoundationsColours extends React.Component<
             Web Content Accessibility Guidelines (WCAG) ensures that content is
             accessible by everyone, regardless of disability or user device. To
             meet these standards, text and interactive elements should have a
-            color contrast ratio of at least 4.5:1. This ensures that viewers
-            who cannot see the full color spectrum are able to read the text.
+            colour contrast ratio of at least 4.5:1. This ensures that viewers
+            who cannot see the full colour spectrum are able to read the text.
           </p>
           <p className="">
-            The options below offer color palette combinations that fall within
+            The options below offer colour palette combinations that fall within
             the range of Section 508 compliant foreground/background color
-            contrast ratios. If you choose to customize beyond the palette, the 
-            <a href="https://webaim.org/resources/contrastchecker">
-               WebAIM color contrast tool 
-            </a>
-             is a useful resource for testing the compliance of any color
-            combination.
+            contrast ratios. If you choose to customize beyond the palette, the <a href="https://webaim.org/resources/contrastchecker"> WebAIM colour contrast tool 
+            </a> is a useful resource for testing the compliance of any colour combination.
           </p>
         </div>
         <p className="bce-design-system-subsectionTitleMedium">

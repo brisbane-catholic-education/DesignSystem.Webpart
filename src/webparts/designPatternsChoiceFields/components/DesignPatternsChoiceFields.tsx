@@ -122,9 +122,7 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
         <div className={styles.choiceFieldSection + " ms-Grid-row bce-design-system-row"}>
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">ChoiceGroup/Radio Buttons</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p">The ChoiceGr0up component. also known as radio buttons. let users select one option from two Or more
-            choices. Each option IS represented by one ChoiceGroup button: a user can select only one ChoiceGroup
-          in a button group.  </p>
+            <p className="bce-design-system-p">The ChoiceGroup component, also known as radio buttons, let users select one option from two or more choices. Each option is represented by one ChoiceGroup button. A user can select only one ChoiceGroup in a button group.</p>
           </div>
           <br />
 
