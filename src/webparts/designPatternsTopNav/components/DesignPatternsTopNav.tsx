@@ -15,7 +15,7 @@ export default class DesignPatternsTopNav extends React.Component<IDesignPattern
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">Top navigation (also called, 'horizontal navigation') is the default navigational 
                   design pattern for responsive websites and intranets. In smaller configurations, 
-                  the Nav may collapse and either the overflow button or the menu icon will 
+                  the Navigation may collapse and either the overflow button or the menu icon will 
                   display. On tapping either of these, the menu will display either as a drop down 
                   in the case of the overflow, or as a drawer in the case of the menu icon. </p>
                   <p className="bce-design-system-p-l">Note: This is for a bespoke BCE application</p>
@@ -25,7 +25,7 @@ export default class DesignPatternsTopNav extends React.Component<IDesignPattern
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Masthead rules</h3>
           <p>The masthead area can be broken into 2 parts </p>
           <ol>
-            <li>The BCE Global Nav</li>
+            <li>The BCE Global Navigation</li>
             <li>The Header where branding and top navigation sits. </li>
           </ol>
           <img src={require('../../../assets/topNav.png')} alt="test" /><br /><br />

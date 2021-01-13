@@ -22,9 +22,9 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
         <div className="ms-Grid-row bce-design-system-row">
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
-            <p className="bce-design-system-p-l">Navs (also called "left nav" or "navigation pane") provide links to the main areas
-              of an app or a site. In larger configurations, the Nav is always on-screen, usually
-              on the left of the view. In smaller configurations, the Nav may collapse into a
+            <p className="bce-design-system-p-l">Navigation (also called "left nav" or "navigation pane") provide links to the main areas
+              of an app or a site. In larger configurations, the Navigation is always on-screen, usually
+              on the left of the view. In smaller configurations, the Navigation may collapse into a
               skinnier version or be completely hidden until the user taps an icon. </p>
             <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLeftNav" target="_blank" title="BCE Github - Button">
               BCE Github - Left Navigation  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
@@ -34,7 +34,7 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
         </div>
         <div className="ms-Grid-row bce-design-system-row">
           <div className="bce-design-system-box">
-            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic Nav bar sample</span>
+            <span className="bce-design-system-subsectionTitleMedium bce-design-system-border-bottom">Basic Navigation bar sample</span>
             <Nav
               groups={[
                 {
@@ -97,8 +97,8 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
           <div className="ms-Grid-col ms-xxl9">
           <p>Use left-hand navigation for apps with many top-level navigation items that are of similar type. </p>
           <p>Keep the names of the navigation items brief and clear, rather than trying to be overly specific. </p>
-          use left-hand navigation for an app with a medium to h'gh number of top level views or categories. If your
-          <p>App is very simple, you may prefer a simpler hub-and-spoke layout </p>
+          <p> use left-hand navigation for an app with a medium to h'gh number of top level views or categories. If your
+           App is very simple, you may prefer a simpler hub-and-spoke layout </p>
           <p>Left-hand navigation works at best with strict organisational schemes, such as an A-Z people directory.
           and where diversity in content models is limited</p>
         </div >
