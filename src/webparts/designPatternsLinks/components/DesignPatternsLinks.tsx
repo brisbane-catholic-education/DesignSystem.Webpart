@@ -14,9 +14,9 @@ export default class DesignPatternsLinks extends React.Component<IDesignPatterns
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">Links lead users to a different page or further information. It is the lightest weight
 clickable control, and is often used to reduce the visual complexity of a design. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLinks" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLinks" target="_blank" >
               BCE Github - Links  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/link" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/link" target="_blank" >
               More at Fluent UI - Link  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

@@ -26,9 +26,9 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
               of an app or a site. In larger configurations, the Navigation is always on-screen, usually
               on the left of the view. In smaller configurations, the Navigation may collapse into a
               skinnier version or be completely hidden until the user taps an icon. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLeftNav" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLeftNav" target="_blank" >
               BCE Github - Left Navigation  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/nav" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/nav" target="_blank" >
               Fluent UI - Navigation  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
@@ -97,10 +97,10 @@ export default class DesignPatternsLeftNav extends React.Component<IDesignPatter
           <div className="ms-Grid-col ms-xxl9">
           <p>Use left-hand navigation for apps with many top-level navigation items that are of similar type. </p>
           <p>Keep the names of the navigation items brief and clear, rather than trying to be overly specific. </p>
-          <p> use left-hand navigation for an app with a medium to h'gh number of top level views or categories. If your
-           App is very simple, you may prefer a simpler hub-and-spoke layout </p>
+          <p>Use left-hand navigation for an app with a medium to high number of top level views or categories. If your
+           App is very simple, you may prefer a simpler hub-and-spoke layout. </p>
           <p>Left-hand navigation works at best with strict organisational schemes, such as an A-Z people directory.
-          and where diversity in content models is limited</p>
+          and where diversity in content models is limited.</p>
         </div >
       </div >
         { this._clickLearningRecrods() }

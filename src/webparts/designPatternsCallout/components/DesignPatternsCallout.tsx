@@ -20,9 +20,9 @@ export default class DesignPatternsCallout extends React.Component<IDesignPatter
         <div className="ms-Grid-row bce-design-system-row">
         <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <p className="bce-design-system-p-l">Callouts are a powerful way to simplify a user interface. They host tips and other information users need when they need it, with minimal effort on their part. However, poorly designed Callouts can be annoying, distracting, unhelpful, overwhelming, or in the way.</p>
-          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCallout" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCallout" target="_blank" >
             BCE GitHub - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/callout" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/callout" target="_blank" >
             Fluent UI - Callout  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
 

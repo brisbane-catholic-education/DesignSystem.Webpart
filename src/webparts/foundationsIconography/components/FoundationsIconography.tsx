@@ -14,7 +14,7 @@ export default class FoundationsIconography extends React.Component<IFoundations
        look across all of our digital platforms, assisting our users to readily understand
 our user interface elements. It means they don't have to continually learn anew. </p>
             <br />    <br />
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/icons" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/icons" target="_blank" >
               Fluent UI - Icons, implementation and asset <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <br /><br />
           </div>

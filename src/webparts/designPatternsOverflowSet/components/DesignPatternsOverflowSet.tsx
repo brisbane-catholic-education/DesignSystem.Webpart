@@ -19,9 +19,9 @@ export default class DesignPatternsOverflowSet extends React.Component<IDesignPa
               primary set of content with additional content in an overflow callout. Note that 
               the example below is only an example of how to render the component, not a 
               specific use case. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsOverflowSet" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsOverflowSet" target="_blank" >
               BCE Github - OverflowSet  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/overflowset" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/overflowset" target="_blank" >
               Fluent UI - OverflowSet  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

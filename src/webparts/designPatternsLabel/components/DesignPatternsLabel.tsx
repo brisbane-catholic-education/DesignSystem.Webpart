@@ -20,9 +20,9 @@ export default class DesignPatternsLabel extends React.Component<IDesignPatterns
          Some components, such as TextField, Dropdown, or Toggle, already have
          Labels incorporated. but other components may optionally add a Label if it
        helps inform the user of the component's purpose. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLabel" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsLabel" target="_blank" >
               BCE Github - Label  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/label" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/label" target="_blank" >
               Fluent UI - Label  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
             <br /><br />
           </div>

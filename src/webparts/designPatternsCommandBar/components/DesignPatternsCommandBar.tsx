@@ -13,9 +13,9 @@ export default class DesignPatternsCommandBar extends React.Component<IDesignPat
           <h3 className="bce-design-system-sectionTitle">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">CommandBar is a surface that houses commands that operate on the content of the window, panel, or parent region it resides above. They are one of the most visible and recognisable ways to surface commands, and can be an intuitive method for interacting with content on the page. </p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCommandBar" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsCommandBar" target="_blank" >
               BCE GitHub - CommandBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/commandbar" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/commandbar" target="_blank" >
               Fluent UI - CommandBar  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

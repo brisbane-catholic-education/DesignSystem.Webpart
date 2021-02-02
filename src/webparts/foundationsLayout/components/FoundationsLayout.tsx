@@ -12,9 +12,9 @@ export default class FoundationsLayout extends React.Component<IFoundationsLayou
           <p className="bce-design-system-p-l">We use a flexible grid with percentage-based columns, fixed margins
             and gutters. The columns are used to adjust the layout, making the
               best use of the space available. </p>
-          <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/82c28595-a016-45a3-88c3-ff35f498430b/a/ryaYWq" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://www.sketch.com/s/82c28595-a016-45a3-88c3-ff35f498430b/a/ryaYWq" target="_blank" >
             Download the asset (Sketch File)  <IconButton iconProps={{ iconName: 'Download' }} title='Download'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/layout" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/styles/web/layout" target="_blank" >
             Fluent UI - Grid  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
         </div>
       </div>

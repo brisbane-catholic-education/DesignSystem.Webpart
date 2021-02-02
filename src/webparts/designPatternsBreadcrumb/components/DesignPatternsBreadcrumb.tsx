@@ -15,9 +15,9 @@ export default class DesignPatternsBreadcrumb extends React.Component<IDesignPat
             indicate the current page's location within a hierarchy and help the user
             understand where they are in relation to the rest of that hierarchy. They also
             afford one-click access to higher levels of that hierarchy. </p>
-          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsBreadcrumb" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsBreadcrumb" target="_blank" >
             BCE Github - Breadcrumb  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/breadcrumb" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/breadcrumb" target="_blank" >
             Fluent UI - Breadcrumb  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div> </div>
 

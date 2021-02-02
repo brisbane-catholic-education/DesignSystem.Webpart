@@ -30,7 +30,7 @@ export default class DesignPatternsDropdown extends React.Component<IDesignPatte
 
           <DefaultButton className="bce-design-system-buttom"  href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDropdown" target="_blank" title="BCE Github - Dropdown">
             BCE Github - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-          <DefaultButton className="bce-design-system-buttom"  href="https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown" target="_blank" title="BCE Github - Button">
+          <DefaultButton className="bce-design-system-buttom"  href="https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown" target="_blank" >
             Fluent UI - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
         </div>
         </div>

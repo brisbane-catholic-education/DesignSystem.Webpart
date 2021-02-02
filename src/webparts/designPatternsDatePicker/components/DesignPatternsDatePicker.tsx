@@ -12,9 +12,9 @@ export default class DesignPatternsDatePicker extends React.Component < IDesignP
           <h3 className="bce-design-system-sectionTitle bce-design-system-border-bottom">Overview</h3>
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">The DatePicker component enables a user to pick a date value.</p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDatePicker" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDatePicker" target="_blank" >
               BCE GitHub - DatePicker  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/datepicker" target="_blank" title="BCE Github - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/datepicker" target="_blank" >
               Fluent UI - DatePicker  <IconButton iconProps={{ iconName: 'OpenInNewWindow' }} title='OpenInNewWindow'></IconButton></DefaultButton>
           </div>
         </div>
