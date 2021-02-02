@@ -34,9 +34,9 @@ export default class DesignPatternsPersona extends React.Component<IDesignPatter
           <div className="ms-Grid-col ms-xxl9">
             <p className="bce-design-system-p-l">Personas are used for rendering an individual's avatar and presence. They are
 used within the PeoplePicker components.</p>
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPersona" target="_blank" title="BCE Github - Persona">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsPersona" target="_blank">
               BCE Github - Persona  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/persona" target="_blank" title="BCE Github - Persona">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/persona" target="_blank">
               Fluent UI - Persona  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>

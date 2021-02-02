@@ -382,24 +382,20 @@ export default class DesignPatternsDetailsList extends React.Component<
             className="bce-design-system-buttom"
             href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDetailsList"
             target="_blank"
-            title="BCE Github - Details List"
           >
             BCE Github - Details List
             <IconButton
               iconProps={{ iconName: "NavigateExternalInline" }}
-              title="NavigateExternalInline"
             ></IconButton>
           </DefaultButton>
           <DefaultButton
             className="bce-design-system-buttom"
             href="https://developer.microsoft.com/en-us/fabric#/controls/web/detailslist"
             target="_blank"
-            title="BCE Github - Details List"
           >
-            BCE Github - Details List
+            Fluent UI - Details List
             <IconButton
               iconProps={{ iconName: "NavigateExternalInline" }}
-              title="NavigateExternalInline"
             ></IconButton>
           </DefaultButton>
         </div>

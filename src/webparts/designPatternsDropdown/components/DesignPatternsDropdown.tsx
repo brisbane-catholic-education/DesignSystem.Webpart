@@ -28,7 +28,7 @@ export default class DesignPatternsDropdown extends React.Component<IDesignPatte
           visible. To change the value, users open the list and click another value or use
             the arrow keys (up and down) to select a new value. </p>
 
-          <DefaultButton className="bce-design-system-buttom"  href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDropdown" target="_blank" title="BCE Github - Dropdown">
+          <DefaultButton className="bce-design-system-buttom"  href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsDropdown" target="_blank">
             BCE Github - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           <DefaultButton className="bce-design-system-buttom"  href="https://developer.microsoft.com/en-us/fabric#/controls/web/dropdown" target="_blank" >
             Fluent UI - Dropdown  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>

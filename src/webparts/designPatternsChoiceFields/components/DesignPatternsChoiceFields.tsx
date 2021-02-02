@@ -17,11 +17,11 @@ export default class DesignPatternsChoiceFields extends React.Component<IDesignP
             one or more options and boxes can be checked and unchecked. Radio Button
             fields will allow only one option to be selected. A Radio Button cannot be
             unchecked. </p><br />
-            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsChoiceFields" target="_blank" title="BCE Github - Choice Field">
+            <DefaultButton className="bce-design-system-buttom" href="https://github.com/brisbane-catholic-education/DesignSystem.Webpart/tree/master/src/webparts/designPatternsChoiceFields" target="_blank">
               BCE Github - Choice Field  <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/checkbox" target="_blank" title="More at Fluent UI - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/checkbox" target="_blank">
               Fluent UI - Checkbox <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
-            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/choicegroup" target="_blank" title="More at Fluent UI - Button">
+            <DefaultButton className="bce-design-system-buttom" href="https://developer.microsoft.com/en-us/fabric#/controls/web/choicegroup" target="_blank">
             Fluent UI  - ChoiceGroup <IconButton iconProps={{ iconName: 'NavigateExternalInline' }} title='NavigateExternalInline'></IconButton></DefaultButton>
           </div>
         </div>
